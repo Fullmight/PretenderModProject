@@ -1,7 +1,7 @@
 #modname "GITP Balance Mod 2.3.1"
 #description "GITP Balance Mod"
 #version 0.31
-#icon ""
+--icon ""
 #end
 
 --*Mage Pretenders*--
