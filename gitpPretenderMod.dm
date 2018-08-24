@@ -6,6 +6,7 @@
 
 --*Mage Pretenders*--
 
+
 /// Arch Mage
 #selectmonster 244
 #hp 40
