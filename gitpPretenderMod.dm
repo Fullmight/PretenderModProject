@@ -560,82 +560,209 @@
 #gcost 220
 #end
 
-/// Dracolich
-#selectmonster 644
-#prot 18
-#heal
-#end
-
-
-
-
-
-/// Kraken
-#selectmonster 973
---pathcost 10
-#prot 16
-#heal
-#end
-
-
-/// Carrion Dragon
-#selectmonster 1026
-#prot 16
-#heal
---gcost 140
-#end
-
-
-
-
-/// Devourer of Souls
-#selectmonster 1349
---clearmagic
---magicskill 5 3
-#heal
-#prot 16
---gcost 70
-#end
-
-
-
-
-
-/// Sea Dragon
-#selectmonster 2440
---gcost 160
---clearmagic
---magicskill 3 2
-#heal
-#end
-#selectmonster 2441
-#hp 20
---clearmagic
---magicskill 3 2
-#heal
-#end
-
-
 /// Hun Balam
-#selectmonster 2764
-#prot 11
+#selectmonster 2316
+#prot 18
+#gcost 160
 #heal
-#berserk 4
 #end
-
 
 /// Azi
 #selectmonster 2608
---gcost 200
+#prot 22
 #heal
 #end
 /// Secondshape
 #selectmonster 2609
---gcost 200
-#hp 20
+#hp 30
 #heal
 #end
 
+/// Devourer of Souls
+#selectmonster 1349
+#heal
+#end
+#selectweapon 400
+#att 5
+#end
+
+/// Carrion Dragon
+#selectmonster 1026
+#prot 18
+#heal
+#gcost 200
+#end
+
+/// Dracolich
+#selectmonster 644
+#prot 18
+#gcost 200
+#heal
+#end
+
+/// Svartalf Mastersmith
+#selectmonster 2802
+#hp25
+#spreaddeath
+#gcost 200
+#heal
+#end
+#selectmonster 2803
+#prot 22
+#poisoncloud 20
+#end
+
+/// Kraken
+#selectmonster 973
+#gcost 140
+#magicsskill 2 1
+#prot 14
+#heal
+#end
+
+/// Sea Dragon
+#selectmonster 2440
+#gcost 100
+#darkvision 100
+#heal
+#end
+#selectmonster 2441
+#hp 25
+#heal
+#end
+
+/// Uttervast
+#selectmonster 2440
+#gcost 400
+#invulnerable 25
+#fear 15
+#magicpower 2
+#incunrest 15
+#popkill 150
+#bonusspells 2
+#onebattlespell 976
+#heal
+#end
+
+/// Golden Lion
+#selectmonster 2958
+#prot 20
+#heal
+#end
+
+
+
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
+
+---*Messenger Pretenders*---
+
+
+/// Prince of Death
+#selectmonster 383
+#invulnerable 20
+#gcost 230
+#woundfend 3
+#end
+
+/// Moloch
+#selectmonster 120
+#gcost 210
+#woundfend 3
+#end
+
+/// Gorgon
+#selectmonster 138
+#gcost 210
+#prot 14
+#woundfend 3
+#hp 50
+#end
+
+/// Virtue
+#selectmonster 215
+#hp 60
+#awe 6
+#str 14
+#att 14
+#def 16
+#gcost 210
+#woundfend 3
+#end
+
+/// Daeva of Wrath
+#selectmonster 2627
+#gcost 210
+#invulnerable 20
+#woundfend 3
+#hp 60
+#fear 10
+#end
+
+/// Gannog Menog
+#selectmonster 2611
+#gcost 230
+#invulnerable 20
+#woundfend 3
+#hp 60
+#end
+
+/// Spenta Mainyu
+#selectmonster 2555
+#gcost 220
+#invulnerable 20
+#woundfend 3
+#hp 60
+#end
+
+/// Ahura of the Waters
+#selectmonster 2554
+#gcost 230
+#invulnerable 20
+#woundfend 3
+#hp 60
+#batstartsum3d6 412
+#end
+
+/// Ahura of the Oath
+#selectmonster 2553
+#gcost 230
+#invulnerable 20
+#woundfend 3
+#hp 60
+#batstartsum3d6 598
+#end
+
+/// Ayar
+#selectmonster 2699
+#gcost 200
+#invulnerable 20
+#woundfend 3
+#end
+
+/// Telkhine God-KKing
+#selectmonster 2881
+#gcost 240
+#invulnerable 15
+#woundfend 3
+#armor 230
+#end
+#selectmonster 2882
+#gcost 240
+#invulnerable 15
+#armor 230
+#woundfend 3
+#end
+
+/// Bolon-ti-kku
+#selectmonster 2881
+#gcost 180
+#hp 60
+#invulnerable 15
+#woundfend 3
+///Needs more, but not sure what.
+#end
 
 ---------------------------------------------------------------
 ***************************************************************
@@ -648,14 +775,6 @@
 #selectmonster 862
 #hp 26
 #gcost 140
-#end
-
-
-/// Vampire Queen
-#selectmonster 862
---startdom2
---gcost 200
-#heal
 #end
 
 /// Chiranjivi
@@ -701,6 +820,12 @@
 ---------------------------------------------------------------
 
 ---*Sphinx Pretenders*---
+
+/// Bodhisattva of Mercy
+#selectmonster 2457
+--gcost 220
+#end
+--consider 210
 
 /// Shedu
 #selectmonster 661
@@ -819,61 +944,9 @@
 #heal
 #end
 
-
 ---------------------------------------------------------------
 ***************************************************************
 ---------------------------------------------------------------
-
----*Messenger Pretenders*---
-
-/// Bodhisattva of Mercy
-#selectmonster 2457
---gcost 220
-#end
---consider 210
-
-/// Virtue
-#selectmonster 215
-#hp 51
---gcost 220
-#clearmagic
-#magicskill 0 1
-#magicskill 0 2
-#heal
-#end
-
-/// Prince of Death
-#selectmonster 383
-#invulnerable 20
---gcost 200
-#heal
-#end
-
-/// Ayar
-#selectmonster 2699
---gcost 200
-#invulnerable 20
-#heal
-#end
-
-/// Moloch
-#selectmonster 120
---gcost 210
-#heal
-#end
-
-/// Gorgon
-#selectmonster 138
---gcost 210
-#prot 10
-#heal
-#end
---debatable.
-
----------------------------------------------------------------
-***************************************************************
----------------------------------------------------------------
-
 
 ---*Titan Pretenders*---
 
