@@ -768,6 +768,169 @@
 ***************************************************************
 ---------------------------------------------------------------
 
+---*Sphinx Pretenders*---
+
+/// Shedu
+#selectmonster 661
+#clearmagic
+#magicskill 3 2
+#magicskill 4 2
+#gcost 160
+#prot 8
+#end
+
+/// Celestial Lion
+#selectmonster 2787
+#clearmagic
+#magicskill 0 2
+#magicskill 4 2
+#end
+
+/// Urmahlullu
+#selectmonster 2137
+#clearmagic
+#magicskill 1 2
+#magicskill 4 2
+#gcost 160
+#end
+
+/// Celestial Gryphon
+#selectmonster 2786
+#magicskill 1 4
+#gcost 160
+#end
+
+/// Sphinx
+#selectmonster 2138
+#clearmagic
+#magicskill 5 2
+#magicskill 4 2
+#gcost 160
+#end
+
+/// Criosphinx
+#selectmonster 2798
+#gcost 160
+#clearmagic
+#magicskill 1 2
+#magicskill 6 2
+#end
+
+/// Hieracosphinx
+#selectmonster 2797
+#gcost 160
+#clearmagic
+#magicskill 0 2
+#magicskill 1 2
+#end
+
+/// Raven of the Underworld
+#selectmonster 2789
+#gcost 180
+#clearmagic
+#magicskill 5 4
+//// Corpse Eater issues
+#end
+
+/// Rams-Headed Serpent
+#selectmonster 779
+#gcost 160
+#clearmagic
+#magicskill 6 4
+#end
+
+/// Dog of the Underworld
+#selectmonster 2795
+#gcost 160
+#clearmagic
+#magicskill 5 2
+#magicskill 2 1
+//// Corpse Eater issues
+#end
+
+/// Demon Macaw
+#selectmonster 2777
+#gcost 150
+#clearmagic
+#magicskill 0 2
+#magicskill 4 2
+#end
+
+/// Kamadhenu
+#selectmonster 2466
+#magicclear
+#magicskill 4 2
+#magicskill 6 2
+#gcost 160
+#end
+
+/// Ageless Olm
+#selectmonster 1590
+#clearmagic
+#magicskill 3 2
+#magicskill 2 2
+#gcost 160
+#end
+
+/// Apkallu
+#selectmonster 2960
+#hp 60
+#gcost 200
+#end
+
+/// Floating Mind
+#selectmonster 2855
+#clearmagic
+#magicskill 2 2
+#magicskill 4 2
+#weapon 274
+#weapon 274
+#end
+
+/// Heavenly Condor
+#selectmonster 2693
+#magicskill 1 4
+#gcost 160
+#end
+
+/// Bodhisattva of Mercy
+#selectmonster 2457
+#hp 60
+#autohealer 3
+///Can't seem to modify Disbelieve
+#clearmagic
+#magicskill 1 2
+#magicskill 4 2
+#end
+
+
+
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
+
+---*Scion Pretenders*---
+
+/// Great Siddha
+#selectmonster 2202
+#ethereal
+#hp 38
+#end
+
+/// Melqart
+#selectmonster 2315
+#hp 95
+--clearmagic
+--magicskill 7 2
+--magicskill 4 1
+--gcost 160
+#heal
+#end
+
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
+
 ---*Immortal Pretenders*---
 
 
@@ -819,134 +982,6 @@
 ***************************************************************
 ---------------------------------------------------------------
 
----*Sphinx Pretenders*---
-
-/// Bodhisattva of Mercy
-#selectmonster 2457
---gcost 220
-#end
---consider 210
-
-/// Shedu
-#selectmonster 661
---clearmagic
---magicskill 3 2
---magicskill 4 2
---gcost 80
-#prot 16
-#heal
-#end
-
-
-/// Heavenly Condor
-#selectmonster 2693
-#stealthy 100
-#heal
-#end
-
-/// Rams-Headed Serpent
-#selectmonster 779
---startdom 3
-#heal
-#end
-
-/// Ageless Olm
-#selectmonster 1590
---clearmagic
---magicskill 3 2
---magicskill 2 2
-#heal
-#end
-
-
-/// Urmahlullu
-#selectmonster 2137
---clearmagic
---magicskill 1 2
---magicskill 4 2
-#heal
-#end
-
-/// Sphinx
-#selectmonster 2138
---magicskill 5 2
---magicskill 4 2
-#heal
-#end
-
-
-/// Criosphinx
-#selectmonster 2798
-#prot 14
-#heal
-#end
-
-/// Celestial Gryphon
-#selectmonster 2786
-#prot 14
-#end
-
-/// Celestial Lion
-#selectmonster 2787
-#prot 14
-#heal
-#end
-
-/// Urmahlullu
-#selectmonster 2137
-#prot 14
-#heal
-#end
-
-/// Sphinx
-#selectmonster 2138
-#prot 14
-#heal
-#end
-
-/// Demon Macaw
-#selectmonster 2777
-#fear 5
-#awe 5
-#heal
-#ethereal
-#end
-
-
-/// Kamadhenu
-#selectmonster 2466
---magicclear
---magicskill 4 2
---magicskill 6 2
---gcost 75
-#heal
-#end
-
----------------------------------------------------------------
-***************************************************************
----------------------------------------------------------------
-
----*Scion Pretenders*---
-
-/// Great Siddha
-#selectmonster 2202
-#ethereal
-#hp 38
-#end
-
-/// Melqart
-#selectmonster 2315
-#hp 95
---clearmagic
---magicskill 7 2
---magicskill 4 1
---gcost 160
-#heal
-#end
-
----------------------------------------------------------------
-***************************************************************
----------------------------------------------------------------
 
 ---*Titan Pretenders*---
 
