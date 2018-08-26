@@ -292,8 +292,60 @@
 #gcost 20
 #clearmagic
 #magicskill 3 1
-#magicskkil 2 1
+#magicskill 2 1
 #magicskill 4 1
+#end
+
+/// Magister Supreme
+#selectmonster 3059
+#hp 25
+#gcost 0
+#spy
+#stealthy 20
+#patrolbonus 30
+#clearmagic
+#magicskill 1 2
+#end
+
+/// Master
+#selectmonster 3060
+#hp 25
+#gcost 0
+#clearmagic
+#magicskill 4 2
+#end
+
+/// Bone Mother
+#selectmonster 3190
+#hp 30
+#gcost 0
+#magicskill 3 1
+#end
+
+/// Enkidu Great Sage
+#selectmonster 3191
+#hp 30
+#gcost 10
+#magicskill 6 1
+#end
+
+/// Great Camazotz
+#selectmonster 3192
+#hp 25
+#gcost 0
+#end
+
+/// Smoking Mirror
+#selectmonster 857
+#hp 25
+#gcost 0
+#end
+
+/// Bouda Father
+#selectmonster 2426
+#hp 25
+#gcost 0
+#fixforgebonus 2
 #end
 
 /// Ghost King
@@ -301,7 +353,14 @@
 #hp 50
 #gcost 100
 #clearmagic
-#magicsill 5 2
+#magicskill 5 2
+#end
+
+/// Ghost King (Atlantian)
+#selectmonster 2853
+#gcost 100
+#clearmagic
+#magicskill 5 2
 #end
 
 
@@ -311,72 +370,194 @@
 
 --*Monster Pretenders*--
 
+/// Hound of Hades
+#selectmonster 2796
+#gcost 180
+#heal
+#end
+
+/// Scorpion King
+#selectmonster 655
+#hp 90
+#weapon 273
+#gcost 180
+#heal
+#end
+
+/// Great White Bull
+#selectmonster 979
+#supplybonus 100
+#end
+
+/// Great Black Bull
+#selectmonster 978
+#gcost 160
+#berserk 12
+#ap 26
+#end
+
+/// Drakon
+#selectmonster 2783
+#gcost 210
+#prot 22
+/// Remove Cold Blooded
+#heal
+#end
+
+
+/// Man Eater
+#selectmonster 2788
+#prot 16
+#heal
+#gcost 180
+#end
+
+/// Serpent of Chaos
+#selectmonster 2793
+#gcost 200
+#prot 20
+/// Remove Cold Blooded
+#heal
+#end
+
+
+/// Solar Serpent
+#selectmonster 2792
+#gcost 180
+#prot 20
+#heat 20
+#armor 212
+/// Remove Cold Blooded
+#heal
+#end
+
+/// Wadjet
+#selectmonster 2799
+#gcost 180
+#prot 20
+#regeneration 20
+/// Remove Cold Blooded
+#heal
+#end
+
+/// Myrmeceleon
+#selectmonster 2799
+#gcost 160
+#prot 13
+#heal
+#end
+
 /// Earth Serpent
 #selectmonster 2791
---gcost 180
+#gcost 200
+#prot 24
 #end
 
-/// Dagon
-#selectmonster 109
-#prot 20
-#heal
---gcost 160
-#end
-
-/// Mother of Monsters
-#selectmonster 157
-#gcost 160
---itemslots 13446
+/// Fire Dragon
+#selectmonster 216
+--gcost 200
 #heal
 #end
-
-/// Virtue
-#selectmonster 215
-#hp 51
---gcost 220
-#clearmagic
-#magicskill 0 1
-#magicskill 0 2
-#heal
-#end
-
-----Might not keep the mage HP boosts.
 /// Fire Dragon Second Shape
 #selectmonster 226
 #hp 20
 #heal
 #end
 
-/// Cold Dragon Second Shape
+/// Frost Dragon
+#selectmonster 265
+--gcost 200
+#heal
+#end
+/// Frost Dragon Second Shape
 #selectmonster 267
 #hp 20
 #heal
 #end
 
+/// Nature Dragon
+#selectmonster 266
+--gcost 200
+#heal
+#end
 /// Nature Dragon Second Shape
 #selectmonster 268
 #hp 20
 #heal
 #end
 
+/// Solar Eagle
+#selectmonster 2785
+#prot 20
+#gcost 200
+#fear 5
+#heal
+#end
+
+/// Linnormr
+#selectmonster 2801
+#prot 22
+#gcost 160
+#poisoncloud 25
+#heal
+#end
+
+/// Ormr
+#selectmonster 2800
+#prot 20
+#heal
+#end
+
+/// Son of Fenrer
+#selectmonster 1229
+#heal
+#prot 17
+#gcost 180
+#weapon 29
+#batstartsum3 1309
+#end
+
+/// Thrice Horned Boar
+#selectmonster 1229
+#heal
+#hp 150
+#gcost 160
+#batstartsum7 2136
+#end
+
 /// Wyrm
 #selectmonster 269
-#prot 16
---gcost 0
+#prot 20
+#gcost 180
 #heal
 #end
 
-/// Prince of Death
-#selectmonster 383
-#invulnerable 20
---gcost 200
+/// Celestial Dragon
+#selectmonster 2318
+#hp 125
+#prot 22
+#fear 10
+#gcost 220
 #heal
 #end
-
-/// Lich Queen
-#selectmonster 395
+#selectmonster 2319
 #hp 25
 #heal
+#gcost 220
+#end
+
+/// Dragon King
+#selectmonster 2316
+#hp 125
+#prot 22
+#fear 10
+#gcost 220
+#heal
+#end
+#selectmonster 2317
+#hp 25
+#heal
+#gcost 220
 #end
 
 /// Dracolich
@@ -385,52 +566,9 @@
 #heal
 #end
 
-/// Bog Mummy
-#selectmonster 643
---gcost 160
---clearmagic
---magicskill 7 1
---magicskill 5 2
-#heal
-#end
 
-/// Scorpion King
-#selectmonster 655
-#hp 95
-#heal
-#end
 
-/// Shedu
-#selectmonster 661
---clearmagic
---magicskill 3 2
---magicskill 4 2
---gcost 80
-#prot 16
-#heal
-#end
 
-/// Divine Serpent
-#selectmonster 779
---startdom 3
-#heal
-#end
-
-/// Vampire Queen
-#selectmonster 862
---startdom2
---gcost 200
-#heal
-#end
-
-/// Ghost King
-#selectmonster 872
---gcost 50
---clearmagic
---magicskill 5 2
-#armor 66
-#heal
-#end
 
 /// Kraken
 #selectmonster 973
@@ -439,13 +577,6 @@
 #heal
 #end
 
-/// Great Black Bull
-#selectmonster 978
-#end
-
-/// Great White Bull
-#selectmonster 979
-#end
 
 /// Carrion Dragon
 #selectmonster 1026
@@ -454,23 +585,8 @@
 --gcost 140
 #end
 
-/// Son of Fenrer
-#selectmonster 1229
-#heal
-#prot 14
---gcost 90
-#end
 
-/// Drakaina
-#selectmonster 1231
---gcost 220
---startdom 3
---clearmagic
---magicskill 2 1
---magicskill 5 2
---itemslots 13446
-#heal
-#end
+
 
 /// Devourer of Souls
 #selectmonster 1349
@@ -479,6 +595,80 @@
 #heal
 #prot 16
 --gcost 70
+#end
+
+
+
+
+
+/// Sea Dragon
+#selectmonster 2440
+--gcost 160
+--clearmagic
+--magicskill 3 2
+#heal
+#end
+#selectmonster 2441
+#hp 20
+--clearmagic
+--magicskill 3 2
+#heal
+#end
+
+
+/// Hun Balam
+#selectmonster 2764
+#prot 11
+#heal
+#berserk 4
+#end
+
+
+/// Azi
+#selectmonster 2608
+--gcost 200
+#heal
+#end
+/// Secondshape
+#selectmonster 2609
+--gcost 200
+#hp 20
+#heal
+#end
+
+
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
+
+---*Immortal Pretenders*---
+
+
+/// Vampire Queen
+#selectmonster 862
+#hp 26
+#gcost 140
+#end
+
+
+/// Vampire Queen
+#selectmonster 862
+--startdom2
+--gcost 200
+#heal
+#end
+
+/// Chiranjivi
+#selectmonster 2959
+#hp 40
+#gcost 70
+#end
+/// 
+
+/// Lich Queen
+#selectmonster 395
+#hp 25
+#heal
 #end
 
 /// Bakemono Kunshu
@@ -496,6 +686,45 @@
 #heal
 #end
 
+
+/// Bog Mummy
+#selectmonster 643
+--gcost 160
+--clearmagic
+--magicskill 7 1
+--magicskill 5 2
+#heal
+#end
+
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
+
+---*Sphinx Pretenders*---
+
+/// Shedu
+#selectmonster 661
+--clearmagic
+--magicskill 3 2
+--magicskill 4 2
+--gcost 80
+#prot 16
+#heal
+#end
+
+
+/// Heavenly Condor
+#selectmonster 2693
+#stealthy 100
+#heal
+#end
+
+/// Rams-Headed Serpent
+#selectmonster 779
+--startdom 3
+#heal
+#end
+
 /// Ageless Olm
 #selectmonster 1590
 --clearmagic
@@ -504,11 +733,6 @@
 #heal
 #end
 
-/// Great Siddha
-#selectmonster 2202
-#ethereal
-#hp 38
-#end
 
 /// Urmahlullu
 #selectmonster 2137
@@ -525,49 +749,44 @@
 #heal
 #end
 
-/// Melqart
-#selectmonster 2315
-#hp 95
---clearmagic
---magicskill 7 2
---magicskill 4 1
---gcost 160
+
+/// Criosphinx
+#selectmonster 2798
+#prot 14
 #heal
 #end
 
-/// Dragon King
-#selectmonster 2316
-#hp 100
-#prot 18
-#str 25
+/// Celestial Gryphon
+#selectmonster 2786
+#prot 14
+#end
+
+/// Celestial Lion
+#selectmonster 2787
+#prot 14
 #heal
 #end
 
-/// Celestial Dragon
-#selectmonster 2318
-#hp 100
-#prot 18
-#str 25
-#heal
-#end
-#selectmonster 2319
-#hp 20
+/// Urmahlullu
+#selectmonster 2137
+#prot 14
 #heal
 #end
 
-/// Sea Dragon
-#selectmonster 2440
---gcost 160
---clearmagic
---magicskill 3 2
+/// Sphinx
+#selectmonster 2138
+#prot 14
 #heal
 #end
-#selectmonster 2441
-#hp 20
---clearmagic
---magicskill 3 2
+
+/// Demon Macaw
+#selectmonster 2777
+#fear 5
+#awe 5
 #heal
+#ethereal
 #end
+
 
 /// Kamadhenu
 #selectmonster 2466
@@ -578,25 +797,63 @@
 #heal
 #end
 
-/// Hun Balam
-#selectmonster 2764
-#prot 11
-#heal
-#berserk 4
-#end
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
 
-/// Heavenly Condor
-#selectmonster 2693
-#stealthy 100
-#heal
-#end
+---*Scion Pretenders*---
 
-/// Demon Macaw
-#selectmonster 2777
-#fear 5
-#awe 5
-#heal
+/// Great Siddha
+#selectmonster 2202
 #ethereal
+#hp 38
+#end
+
+/// Melqart
+#selectmonster 2315
+#hp 95
+--clearmagic
+--magicskill 7 2
+--magicskill 4 1
+--gcost 160
+#heal
+#end
+
+
+---------------------------------------------------------------
+***************************************************************
+---------------------------------------------------------------
+
+---*Messenger Pretenders*---
+
+/// Bodhisattva of Mercy
+#selectmonster 2457
+--gcost 220
+#end
+--consider 210
+
+/// Virtue
+#selectmonster 215
+#hp 51
+--gcost 220
+#clearmagic
+#magicskill 0 1
+#magicskill 0 2
+#heal
+#end
+
+/// Prince of Death
+#selectmonster 383
+#invulnerable 20
+--gcost 200
+#heal
+#end
+
+/// Ayar
+#selectmonster 2699
+--gcost 200
+#invulnerable 20
+#heal
 #end
 
 /// Moloch
@@ -613,105 +870,6 @@
 #end
 --debatable.
 
-/// fire Dragon
-#selectmonster 216
---gcost 200
-#heal
-#end
-
-/// Frost Dragon
-#selectmonster 265
---gcost 200
-#heal
-#end
-
-/// Nature Dragon
-#selectmonster 266
---gcost 200
-#heal
-#end
-
-/// Urmahlullu
-#selectmonster 2137
-#prot 14
-#heal
-#end
-
-/// Sphinx
-#selectmonster 2138
-#prot 14
-#heal
-#end
-
-/// Azi
-#selectmonster 2608
---gcost 200
-#heal
-#end
-/// Secondshape
-#selectmonster 2609
---gcost 200
-#hp 20
-#heal
-#end
-
-/// Ayar
-#selectmonster 2699
---gcost 200
-#invulnerable 20
-#heal
-#end
-
-/// Celestial Gryphon
-#selectmonster 2786
-#prot 14
-#end
-
-/// Celestial Lion
-#selectmonster 2787
-#prot 14
-#heal
-#end
-
-/// Man Eater
-#selectmonster 2788
-#prot 16
-#heal
-#end
-
-/// Criosphinx
-#selectmonster 2798
-#prot 14
-#heal
-#end
-
----------------------------------------------------------------
-***************************************************************
----------------------------------------------------------------
-
----*Messenger Pretenders*---
-
-/// Bodhisattva of Mercy
-#selectmonster 2457
---gcost 220
-#end
---consider 210
-
-/// Vampire Queen
-#selectmonster 862
-#hp 26
-#gcost 140
-#end
-
-/// Chiranjivi
-#selectmonster 2959
-#hp 40
-#gcost 70
-#end
-/// 
-
-
-
 ---------------------------------------------------------------
 ***************************************************************
 ---------------------------------------------------------------
@@ -720,6 +878,30 @@
 ---*Titan Pretenders*---
 
 
+/// Drakaina
+#selectmonster 1231
+--gcost 220
+--startdom 3
+--clearmagic
+--magicskill 2 1
+--magicskill 5 2
+--itemslots 13446
+#heal
+#end
+
+/// Dagon
+#selectmonster 109
+#prot 20
+#heal
+--gcost 160
+#end
+
+/// Mother of Monsters
+#selectmonster 157
+#gcost 160
+--itemslots 13446
+#heal
+#end
 
 /// Cyclops
 #selectmonster 156
