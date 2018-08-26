@@ -1,6 +1,6 @@
-#modname "GITP Balance Mod 2.3.1"
-#description "GITP Balance Mod"
-#version 0.31
+#modname "Root Party Pretenders Mod 0.01"
+#description "Root Party Balance Mod"
+#version 0.01
 --icon ""
 #end
 
@@ -10,176 +10,124 @@
 
 /// Arch Mage
 #selectmonster 244
-#hp 40
+#hp 25
 #gcost 0
---clearmagic
---magicskill 3 1
---magicskill 2 1
---magicskill 1 1
---magicskill 0 1
---masterrit 2
---gcost 60
 #end
 
 /// Master Enchanter
 #selectmonster 245
---gcost 60
-#hp 40
 #gcost 0
---magicskill 4 1
---magicskill 5 1
---magicskill 6 2
---masterrit 2
+#hp 25
 #end
 
 /// Freak Lord
 #selectmonster 246
-#hp 40
 #gcost 0
---clearmagic
---magicskill 6 2
---magicskill 7 2
-#crossbreeder 20
---gemprod 7 2
---gcost 50
+#hp 25
 #end
 
 /// UW Arch Mage
 #selectmonster 248
-#hp 40
 #gcost 0
---gcost 20
---magicskill 2 2
---magicskill 1 1
---magicskill 6 1
+#hp 25
+#clearmagic
+#magicskill 1 1
+#magicskill 2 1
 #end
 
 /// Crone
 #selectmonster 249
-#hp 40
-#gcost 20
---clearmagic
---magicskill 4 2
---magicskill 5 2
+#hp 25
+#gcost 10
+#clearmagic
+#magicskill 5 1
+#magicskill 6 1
 #stealthy 0
---gcost 20
 #end
 
 /// Frost Father
 #selectmonster 250
---coldpower 4
---cold 20
---invulnerable 15
---iceprot 10
-#hp 40
 #gcost 0
---magicskill 1 1
---magicskill 2 2
---magicskill 7 1
---gcost 50
+#hp 25
 #end
 
 /// Great Sage
 #selectmonster 251
---gcost 60
---researchbonus 18
-#inspiringres 2
-#hp 40
 #gcost 10
---magicskill 1 1
---magicskill 0 1
+#hp 25
 #end
 
 /// Arch Druid
 #selectmonster 270
-#hp 40
 #gcost 0
---gcost 20
---magicskill 6 2
---magicskill 2 1
---magicskill 3 1
+#hp 25
+#gemprod 6 1
 #end
 
 /// Bitch Queen
 #selectmonster 401
---gcost 80
---magicskill 6 2
---magicskill 3 1
-#gcost 100
+#gcost 20
 #hp 40
-#startdom 2
+#stealthy 0
 #end
 ///Secondshape
-#selectmonster 402 
---gcost 80
---magicskill 6 2
---magicskill 3 1
+#selectmonster 402
+#gcost 20
+#stealthy 0
 #hp 40
 #end
 
 /// Great Enchantress
 #selectmonster 485
-#hp 40
+#hp 25
 #gcost 0
---gcost 40
---gemprod 4 2
---magicskill 3 2
---magicskill 4 2
 #end
 
 /// Great Warlock
 #selectmonster 486
-#hp 40
+#hp 30
 #gcost 0
---magicskill 7 2
---magicskill 0 1
---magicskill 4 1
---gcost 40
+#clearmagic
+#magicskill 7 1
+#magicskill 0 1
 #end
 
 /// Skratti
 #selectmonster 500
-#hp 40
+#hp 50
 #gcost 0
---magicskill 7 2
---magicskill 2 1
---magicskill 5 1
+#clearmagic
+#magicskill 2 1
+#magicskill 0 1
 #end
 
 /// Arch Seraph
 #selectmonster 509
-#hp 40
+#hp 25
 #gcost 0
---magicskill 1 2
---magicskill 0 1
---magicskill 4 1
+#clearmagic
+#magicskill 1 2
 #end
 
 /// Master Alchemist
 #selectmonster 550
-#hp 40
+#hp 25
 #gcost 0
---fixforgebonus 2
---mastersmith 1
---magicskill 0 1
---magicskill 2 1
---magicskill 3 2
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
 #end
 
 ///Serpent King
 #selectmonster 653
-#hp 40
+#hp 25
 #gcost 0
---startdom 2
---magicskill 5 1
---magicskill 6 2
 #end
+///How to remove cold blooded?
 ///Secondshape
 #selectmonster 654
-#hp 42
---magicskill 5 1
---magicskill 6 2
---gcost 50
+#hp 30
+#gcost 0
 #end
 
 /// Smoking Mirror
@@ -189,83 +137,60 @@
 #end
 #selectmonster 858
 #hp 40
---gcost 0
+#gcost 0
 #end
-
-/// Vampire Queen
-#selectmonster 862
-#hp 26
-#gcost 140
-#end
-
 
 /// Great Seer of the Deeps
 #selectmonster 873
-#hp 40
+#hp 25
 #gcost 0
---gcost 50
---magicskill 2 2
---magicskill 4 2
+#clearmagic
+#magicskill 2 1
+#magicskill 4 1
 #end
 
 /// Divine Emperor
 #selectmonster 874
-#hp 40
+#hp 25
 #gcost 0
---gcost 60
---magicskill 4 3
 #end
-
-
 
 /// Fomorian Sorceror
 #selectmonster 1898
-#hp 40
+#hp 50
 #gcost 0
---magicskill 1 2
---magicskill 5 2
 #end
 
 /// Great Sorceress
 #selectmonster 1905
-#hp 40
+#hp 25
 #gcost 0
---gcost 60
---magicskill 1 1
---magicskill 2 1
---magicskill 5 2
 #end
 
 /// Great Sauromancer
 #selectmonster 2205
-#hp 40
+#hp 25
 #gcost 0
---magicskill 5 3
---magicskill 4 1
 #end
 
 /// Eldest Dwarf
 #selectmonster 2206
-#hp 40
+#hp 25
 #gcost 0
---mastersmith 1
---fixforgebonus 2
---magicskill 0 1
---magicskill 3 3
 #end
 
 /// Great Sorceror
 #selectmonster 2207
---gcost 80
---magicskill 0 1
---magicskill 3 2
-#hp 40
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 5 1
+#hp 25
 #gcost 0
---startdom 2
 #end
 /// SecondShape
 #selectmonster 2208
---gcost 80
+#gcost 80
 #hp 63
 #prot 18
 #stealthy 0
@@ -276,26 +201,109 @@
 
 /// Maharishi
 #selectmonster 2549
+#hp 25
+#gcost 0
+#clearmagic
+#magicskill 4 2
+#end
+
+/// King of Frozen Bones
+#selectmonster 2852
 #hp 40
 #gcost 0
---clearmagic
---magicskill 4 3
---magicskill 6 1
---gcost 40
+#end
+
+/// Morgen High Queen
+#selectmonster 2922
+#hp 25
+#gcost 0
+#end
+
+/// Leader of the Closed Council
+#selectmonster 2955
+#hp 25
+#gcost 0
+#clearmagic
+#magicskill 4 2
+#end
+
+/// Centauride Enchantress
+#selectmonster 2961
+#hp 35
+#gcost 0
+#inspirational 2
+#end
+
+/// Centaur Great Sage
+#selectmonster 2961
+#hp 35
+#gcost 0
+#inspiringres 1
+#end
+
+/// Master Sorcerer
+#selectmonster 2978
+#hp 25
+#gcost 0
+#clearmagic
+#magicskill 3 1
+#magicskill 5 1
+#end
+
+/// Onmyo Hakase
+#selectmonster 2978
+#hp 25
+#gcost 0
+#clearmagic
+#magicskill 4 2
+#end
+
+/// Grand Hierophant
+#selectmonster 3053
+#hp 25
+#gcost 0
+#inspiringres 1
+#clearmagic
+#magicskill 4 2
+#end
+
+/// Firstborn of the Star
+#selectmonster 3054
+#hp 40
+#gcost 0
+#end
+
+/// Aphroi Sage
+#selectmonster 3056
+#hp 35
+#gcost 0
+#inspirational 2
+#end
+/// Land Shape
+#selectmonster 3057
+#hp 35
+#gcost 0
+#inspirational 2
+#end
+
+/// God-King of the Deep
+#selectmonster 3058
+#hp 50
+#gcost 20
+#clearmagic
+#magicskill 3 1
+#magicskkil 2 1
+#magicskill 4 1
 #end
 
 /// Ghost King
 #selectmonster 872
-#hp 40
-#gcost 20
-#armor 92
+#hp 50
+#gcost 100
+#clearmagic
+#magicsill 5 2
 #end
 
-/// Chiranjivi
-#selectmonster 2959
-#hp 40
-#gcost 70
-#end
 
 ---------------------------------------------------------------
 ***************************************************************
@@ -689,6 +697,17 @@
 #end
 --consider 210
 
+/// Vampire Queen
+#selectmonster 862
+#hp 26
+#gcost 140
+#end
+
+/// Chiranjivi
+#selectmonster 2959
+#hp 40
+#gcost 70
+#end
 /// 
 
 
