@@ -911,20 +911,74 @@
 
 ---*Scion Pretenders*---
 
+/// Sapa Inca
+#selectmonster 2695
+#gcost 60
+#hp 35
+#shockres 15
+#end
+
+/// Yazad King
+#selectmonster 2578
+#gcost 60
+#hp 35
+#end
+
+/// Raksharani
+#selectmonster 2550
+#gcost 120
+#hp 40
+///  Don't appear to be able to add blood searcher?
+#gemprod 7 4
+#end
+#selectmonster 2551
+#gcost 120
+#hp 30
+#gemprod 7 4
+///  Don't appear to be able to add blood searcher?
+#end
+
+///Eldest Cyclops
+#selectmonster 3121
+#gcost 180
+#resources 100
+#end
+
+/// First Spawn
+#selectmonster 3098
+#clearmagic
+#magicskill 2 2
+#magicskill 4 2
+#startdom 2
+#taskmaster 5
+#weapon 536
+#end
+
+/// Lawgiver
+#selectmonster 1896
+#gcost 40
+#hp 35
+#resources 100
+#stardom 2
+#end
+#selectmonster 1897
+#gcost 40
+#hp 40
+#startdom 2
+#end
+
 /// Great Siddha
 #selectmonster 2202
-#ethereal
-#hp 38
+#gcost 80
+#hp 40
+#pathcost 20
 #end
 
 /// Melqart
 #selectmonster 2315
-#hp 95
---clearmagic
---magicskill 7 2
---magicskill 4 1
---gcost 160
-#heal
+#pathcost 40
+#gemprod 7 4
+#gcost 120
 #end
 
 ---------------------------------------------------------------
@@ -934,48 +988,96 @@
 ---*Immortal Pretenders*---
 
 
-/// Vampire Queen
-#selectmonster 862
-#hp 26
-#gcost 140
+/// Master Lich
+#selectmonster 179
+#hp 60
+#gcost 200
+#clearmagic
+#magicskill 5 4
 #end
 
-/// Chiranjivi
-#selectmonster 2959
-#hp 40
-#gcost 70
+/// Saurolich
+#selectmonster 320
+#hp 60
+#gcost 200
+#clearmagic
+#magicskill 5 3
+#magicskill 6 1
 #end
-/// 
 
 /// Lich Queen
 #selectmonster 395
-#hp 25
+#hp 60
+#prot 15
+#inspirational 1
+#batstartsum8d6 191
+#end
+
+/// Phoenix
+#selectmonster 608
+#clearmagic
+#magicskill 0 2
+#magicskill 1 2
+#awe 1
+#fireshield 5
+#end
+
+/// Risen Oracle
+#selectmonster 1581
+#clearmagic
+#magicskill 5 3
+#magicskill 3 1
 #heal
 #end
 
 /// Bakemono Kunshu
 #selectmonster 1428
-#armor 132
---gcost 90
-#heal
+#armor 212
+#gcost 90
 #end
 
-/// Risen Oracle
-#selectmonster 1581
---clearmagic
---magicskill 5 2
---magicskill 3 1
-#heal
+/// Vampire Queen
+#selectmonster 862
+#hp 44
+#clearmagic
+#magicskill 5 2
+#magicskill 7 2
+#str 15
+#att 13
+#def 13
+#prec 13
 #end
 
+/// Chiranjivi
+#selectmonster 2959
+#hp 40
+#clearmagic
+#magicskill 4 2
+#gcost 80
+#startdom 2
+#end
+
+/// Demilich
+#selectmonster 180
+#hp 10
+#gcost 60
+#startdom 4
+#end
+
+/// Immortal Coya
+#selectmonster 2737
+#hp 60
+#clearmagic
+#magicskill 3 1
+#magicskill 5 3
+#end
 
 /// Bog Mummy
 #selectmonster 643
---gcost 160
---clearmagic
---magicskill 7 1
---magicskill 5 2
-#heal
+#gcost 180
+#clearmagic
+#magicskill 7 1
+#magicskill 5 3
 #end
 
 ---------------------------------------------------------------
@@ -1009,18 +1111,6 @@
 #gcost 160
 --itemslots 13446
 #heal
-#end
-
-/// Cyclops
-#selectmonster 156
---gcost 220
-#end
-
-/// Demilich
-#selectmonster 180
---gcost 120
---Discounted by 10 points which essentially makes him
---one scales point better. Might prove too good
 #end
 
 /// Neter of crafts
