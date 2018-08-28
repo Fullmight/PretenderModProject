@@ -86,10 +86,11 @@
 /// Great Warlock
 #selectmonster 486
 #hp 30
-#gcost 0
+#gcost 30
 #clearmagic
 #magicskill 7 1
 #magicskill 0 1
+#magicskill 4 1
 #end
 
 /// Skratti
@@ -161,8 +162,10 @@
 
 /// Divine Emperor
 #selectmonster 874
-#hp 25
-#gcost 0
+#hp 50
+#gcost 20
+#awe 1
+#size 4
 #end
 
 /// Fomorian Sorceror
@@ -174,13 +177,17 @@
 /// Great Sorceress
 #selectmonster 1905
 #hp 25
-#gcost 0
+#gcost 50
+#pathcost 30
+#magicskill 6 1
+#magicskill 2 1
 #end
 
 /// Great Sauromancer
 #selectmonster 2205
 #hp 25
-#gcost 0
+#gcost 20
+#magicskill 6 1
 #end
 
 /// Eldest Dwarf
@@ -212,9 +219,10 @@
 /// Maharishi
 #selectmonster 2549
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
 #magicskill 4 2
+#magicskill 6 1
 #end
 
 /// King of Frozen Bones
@@ -232,16 +240,17 @@
 /// Leader of the Closed Council
 #selectmonster 2955
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
-#magicskill 4 2
+#magicskill 3 3
 #end
 
 /// Centauride Enchantress
 #selectmonster 2961
 #hp 35
-#gcost 0
+#gcost 20
 #inspirational 2
+#magicskill 2 1
 #end
 
 /// Centaur Great Sage
@@ -254,14 +263,15 @@
 /// Master Sorcerer
 #selectmonster 2978
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
 #magicskill 3 1
 #magicskill 5 1
+#goodundeadleader
 #end
 
 /// Onmyo Hakase
-#selectmonster 2978
+#selectmonster 2979
 #hp 25
 #gcost 0
 #clearmagic
@@ -271,8 +281,8 @@
 /// Grand Hierophant
 #selectmonster 3053
 #hp 25
-#gcost 0
-#inspiringres 1
+#gcost 30
+#inspiringres 2
 #clearmagic
 #magicskill 4 2
 #end
@@ -320,7 +330,7 @@
 /// Master
 #selectmonster 3060
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
 #magicskill 4 2
 #end
@@ -354,7 +364,7 @@
 /// Bouda Father
 #selectmonster 2426
 #hp 25
-#gcost 0
+#gcost 20
 #fixforgebonus 2
 #end
 
@@ -397,6 +407,7 @@
 /// Great White Bull
 #selectmonster 979
 #supplybonus 100
+#gcost 160
 #end
 
 /// Great Black Bull
@@ -477,7 +488,7 @@
 #end
 
 /// Myrmeceleon
-#selectmonster 2799
+#selectmonster 2790
 #gcost 160
 #prot 13
 #heal
@@ -499,7 +510,7 @@
 
 /// Fire Dragon
 #selectmonster 216
---gcost 200
+#prot 22
 #heal
 #end
 /// Fire Dragon Second Shape
@@ -510,7 +521,7 @@
 
 /// Frost Dragon
 #selectmonster 265
---gcost 200
+#prot 22
 #heal
 #end
 /// Frost Dragon Second Shape
@@ -521,7 +532,7 @@
 
 /// Nature Dragon
 #selectmonster 266
---gcost 200
+#prot 22
 #heal
 #end
 /// Nature Dragon Second Shape
@@ -550,6 +561,7 @@
 #selectmonster 2800
 #prot 20
 #heal
+#gcost 180
 #end
 
 /// Son of Fenrer
@@ -558,11 +570,11 @@
 #prot 17
 #gcost 180
 #weapon 29
-#batstartsum3 1309
+#batstartsum2 1309
 #end
 
 /// Thrice Horned Boar
-#selectmonster 1229
+#selectmonster 2784
 #heal
 #hp 150
 #gcost 160
@@ -605,10 +617,10 @@
 #end
 
 /// Hun Balam
-#selectmonster 2316
+#selectmonster 2764
 #prot 18
-#gcost 160
 #heal
+#gcost 160
 #end
 
 /// Azi
@@ -625,6 +637,7 @@
 /// Devourer of Souls
 #selectmonster 1349
 #heal
+#gcost 140
 #end
 #selectweapon 400
 #att 5
@@ -635,6 +648,8 @@
 #prot 18
 #heal
 #gcost 200
+#magicboost 5 1
+#magicboost 6 1
 #end
 
 /// Dracolich
@@ -647,13 +662,14 @@
 /// Svartalf Mastersmith
 #selectmonster 2802
 #hp25
-#spreaddeath
+#leper 1
 #gcost 200
 #heal
 #end
 #selectmonster 2803
 #prot 22
-#poisoncloud 20
+#poisoncloud 25
+#leper 1
 #end
 
 /// Kraken
@@ -692,6 +708,7 @@
 #selectmonster 2958
 #prot 20
 #heal
+#gcost 180
 #end
 
 
@@ -766,7 +783,7 @@
 #invulnerable 20
 #woundfend 3
 #hp 60
-#batstartsum3d6 412
+#batstartsum2d6 412
 #end
 
 /// Ahura of the Oath
@@ -828,6 +845,7 @@
 #clearmagic
 #magicskill 0 2
 #magicskill 4 2
+#gcost 160
 #end
 
 /// Urmahlullu
@@ -888,7 +906,7 @@
 #gcost 160
 #clearmagic
 #magicskill 5 2
-#magicskill 2 1
+#magicskill 2 2
 //// Corpse Eater issues
 #end
 
@@ -945,6 +963,7 @@
 #clearmagic
 #magicskill 1 2
 #magicskill 4 2
+#gcost 140
 #end
 
 
@@ -1055,6 +1074,7 @@
 #prot 15
 #inspirational 1
 #batstartsum8d6 191
+#gcost 160
 #end
 
 /// Phoenix
@@ -1064,6 +1084,7 @@
 #magicskill 1 2
 #awe 1
 #fireshield 5
+#gcost 110
 #end
 
 /// Risen Oracle
@@ -1072,6 +1093,7 @@
 #magicskill 5 3
 #magicskill 3 1
 #heal
+#gcost 180
 #end
 
 /// Bakemono Kunshu
@@ -1090,6 +1112,7 @@
 #att 13
 #def 13
 #prec 13
+#gcost 210
 #end
 
 /// Chiranjivi
@@ -1230,6 +1253,7 @@
 #selectmonster 2450
 #gcost 200
 #prot 14
+#startdom 4
 #end
 
 /// Lord of the Forest
@@ -1241,14 +1265,16 @@
 #end
 
 /// Matrona of the Healing Spring
-#selectmonster 2082
+#selectmonster 3082
 #gcost 180
+#startdom 4
 #end
 
 /// Son of the Sea
 #selectmonster 2856
 #gcost 240
 #invulnerable 10
+#startdom 4
 #end
 
 
@@ -1335,7 +1361,7 @@
 #startdom 4
 #gcost 200
 #weapon 243
-#airshield
+#airshield 80
 #armor 230
 #end
 
@@ -1392,13 +1418,13 @@
 /// Nataraja
 #selectmonster 499
 #prot 8
-#gocst 220
 #startdom 4
 #clearweapons
 #weapon 120
 #weapon 75
 #weapon 245
 #weapon 347
+#gcost 220
 #end
 
 
@@ -1412,13 +1438,9 @@
 
 /// Mother of Monsters
 #selectmonster 157
-#clearspec
 #prot 14
 #gcost 200
 #crossbreeder 20
-#poisonres 25
-#swampsurvival
-#poisoncloud 8
 #startdom 4
 #end
 
@@ -1437,7 +1459,7 @@
 #end
 
 /// Titan of Forethought
-#selectmonster 3123
+#selectmonster 3124
 #gcost 220
 #startdom 4
 #armor 230
@@ -1455,6 +1477,7 @@
 #armor 230
 #invulnerable 15
 #startdom 4
+#gcost 240
 #end
 
 /// Titan of Death and Rebirth
@@ -1570,7 +1593,7 @@
 
 /// Teteo Inan
 #selectmonster 2434
-#prot 12
+#prot 8
 #gcost 240
 #startdom 4
 #end
@@ -1680,8 +1703,8 @@
 
 /// Asynja(Armored)
 #selectmonster 1098
-#gcost 200
 #startdom 4
+#gcost 200
 #end
 
 /// Allfather
@@ -1704,7 +1727,7 @@
 #end
 
 /// Deives of the Sun
-#selectmonster 1098
+#selectmonster 3086
 #gcost 210
 #armor 230
 #startdom 4
@@ -1777,7 +1800,10 @@
 #fear 5
 #gcost 230
 #cold 25
-#armor 46
+#cleararmor
+#armor 27
+#armor 225
+#armor 226
 #startdom 4
 #end
 
@@ -2000,6 +2026,7 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
+#startdom 4
 #end
 #selectmonster 3077
 #clearweapons
@@ -2008,6 +2035,7 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
+#startdom 4
 #end
 #selectmonster 3078
 #clearweapons
@@ -2016,6 +2044,7 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
+#startdom 4
 #end
 
 /// Titan of Crossroads
@@ -2024,16 +2053,19 @@
 #magicboost 6 1
 #magicboost 4 1
 #magicboost 5 1
+#startdom 4
 #end
 #selectmonster 3206
 #gcost 240
 #magicboost 6 1
+#startdom 4
 #magicboost 4 1
 #magicboost 5 1
 #end
 #selectmonster 3307
 #gcost 240
 #magicboost 6 1
+#startdom 4
 #magicboost 4 1
 #magicboost 5 1
 #end
