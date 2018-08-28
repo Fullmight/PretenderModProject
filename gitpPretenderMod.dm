@@ -1934,6 +1934,7 @@
 /// Father of the Sea
 #selectmonster 2848
 #copystats 2847
+#copyspr 2847
 #end
 
 ---------------------------------------------------------------
@@ -1942,27 +1943,61 @@
 
 ---*Trinities Pretenders*---
 
+/// Hooded Spirit
+#selectmonster 2930
+#gcost 180
+#end
+
 /// Morrigna
 #selectmonster 3076
 #clearweapons
 #weapon 487
 #gcost 280
-#magicboost 53 1
+#magicboost 1 1
+#magicboost 4 1
+#magicboost 5 1
 #end
 #selectmonster 3077
 #clearweapons
 #weapon 487
 #gcost 280
-#magicboost 53 1
+#magicboost 1 1
+#magicboost 4 1
+#magicboost 5 1
 #end
 #selectmonster 3078
 #clearweapons
 #weapon 487
 #gcost 280
-#magicboost 53 1
+#magicboost 1 1
+#magicboost 4 1
+#magicboost 5 1
+#end
+
+/// Titan of Crossroads
+#selectmonster 3205
+#gcost 240
+#magicboost 6 1
+#magicboost 4 1
+#magicboost 5 1
+#end
+#selectmonster 3206
+#gcost 240
+#magicboost 6 1
+#magicboost 4 1
+#magicboost 5 1
+#end
+#selectmonster 3307
+#gcost 240
+#magicboost 6 1
+#magicboost 4 1
+#magicboost 5 1
 #end
 
 /// Grey one
 #selectmonster 3204
 #hp 25
+#gcost 100
+#magicboost 2 1
+#magicboost 5 1
 #end
