@@ -928,14 +928,14 @@
 #selectmonster 2550
 #gcost 120
 #hp 40
-///  Don't appear to be able to add blood searcher?
+#douse 2
 #gemprod 7 4
 #end
 #selectmonster 2551
 #gcost 120
 #hp 30
 #gemprod 7 4
-///  Don't appear to be able to add blood searcher?
+#douse 2
 #end
 
 ///Eldest Cyclops
@@ -1088,378 +1088,711 @@
 ---*Titan Pretenders*---
 
 
-/// Drakaina
-#selectmonster 1231
---gcost 220
---startdom 3
---clearmagic
---magicskill 2 1
---magicskill 5 2
---itemslots 13446
-#heal
-#end
-
-/// Dagon
-#selectmonster 109
-#prot 20
-#heal
---gcost 160
-#end
-
-/// Mother of Monsters
-#selectmonster 157
-#gcost 160
---itemslots 13446
-#heal
-#end
-
 /// Neter of crafts
 #selectmonster 384
---gcost 210
+#gcost 220
+#armor 230
+#mastersmith 1
+#startdom 4
 #end
 
 /// Neteret of Joy
 #selectmonster 385
---gcost 200
+#gcost 180
+#armor 230
+#startdom 4
 #end
 
-/// Neter of the Sun
-#selectmonster 386
---gcost 220
+/// Neteret of the Moon
+#selectmonster 2464
+#clearspec
+/// Cannot spread magic scales
+#magicpower 1
+#nobadevents 25
+#wastesurvival
+#gcost 220
+#startdom 4
 #end
 
-/// Neteret of Many Names
-#selectmonster 387
---gcost 220
-#researchbonus 14
-#inspiringres 3
+/// Neter of Kings
+#selectmonster 2446
+#gcost 200
+#awe 1
+#startdom 4
+#end
+
+/// Neter of the Underworld
+#selectmonster 2445
+#invulnerable 15
+#gcost 200
+#startdom 4
 #end
 
 /// Neter of Chaos
 #selectmonster 388
---gcost 200
+#gcost 190
+#chaospower 2
+#startdom 4
 #end
 
-/// Nataraja
-#selectmonster 499
---gcost 220
+/// Neter of the Sun
+#selectmonster 386
+#gcost 200
+#startdom 4
 #end
 
-/// Allfather
-#selectmonster 501
---gcost 240
+/// Neteret of Many Names
+#selectmonster 387
+#clearspec
+#gcost 180
+#pathcost 10
+#armor 230
+#inspiringres 2
+#researchbonus 10
+#wastesurvival
+#startdom 4
 #end
 
-/// Titan of War and Wisdom
-#selectmonster 600
---gcost 230
+
+/// Duiu of Farming
+#selectmonster 3080
+#gcost 200
+#startdom 4
+#armor 192
 #end
 
-/// Titan of Heaven
-#selectmonster 602
---gcost 200
+/// Duiu of War
+#selectmonster 3081
+#gcost 200
+#startdom 4
+#prot 12
 #end
 
-/// Teotl of rain
-#selectmonster 603
---gcost 220
-#end
-
-/// Teotl of the Night
-#selectmonster 604
---gcost 250
-#end
-
-/// Son of Niefel
-#selectmonster 605
---gcost 210
+/// Duiu of Thunder
+#selectmonster 3079
+#gcost 200
+#startdom 4
+#flying
 #end
 
 /// Great Mother
---selectmonster 606
-end
-
-/// Void Lord
---selectmonster 652
-end
-/// Jade Emporor
---selectmonster 905
-end
-
-/// Lord of the Wild
-#selectmonster 812
---gcost 230
-#berserk 7
+#selectmonster 606
+#startdom 4
+#gcost 220
+///Spring Immortal?
 #end
 
-/// Lord of The Desert Sun
-#selectmonster 957
---gcost 220
-#end
-
-/// Titan of the Sea
-#selectmonster 961
---gcost 210
-#end
-
-/// Destroyer of worlds
-#selectmonster 1096
---gcost 210
-#end
-
-/// Lord of Summer Plague
-#selectmonster 1097
---gcost 210
-#end
-
-/// Asynja
-#selectmonster 1098
---gcost 220
-#end
-
-/// Forge Lord
-#selectmonster 1230
---gcost 210
-#pathcost 40 --might be too strong.
-#end
-
-/// Old Man of the Sea
-#selectmonster 1232
---gcost 220
-#end
-
-/// Lord of the Waves
-#selectmonster 1233
---gcost 180
-#end
-
-/// Nyorai
-#selectmonster 1339
---gcost 180
-#end
-
-/// Tiwaz of War
-#selectmonster 1340
---gcost 210
-#end
-
-/// Devi of Darkness
-#selectmonster 1341
---gcost 230
-#end
-
-/// Titan of Rivers
-#selectmonster 1342
---gcost 220
-#end
-
-/// Titan of Love
-#selectmonster 1343
---gcost 230
-#end
-
-/// Devi of Good Fortunes
-#selectmonster 1344
---gcost 210
-#end
-
-/// Celestial General
-#selectmonster 1345
---gcost 210
-#end
-
-/// Titan of Serpents and Medicine
-#selectmonster 1348
---gcost 230
-#end
-
-/// Volla of the Bountiful Forest
-#selectmonster 1370
---gcost 180
-#end
-
-/// Titan of Death and Rebirth
-#selectmonster 1371
---gcost 200
-#end
-
-/// Annunaki of the Sky
-#selectmonster 1372
---gcost 230
-#end
-
-/// Annunaki of Sweet Waters
-#selectmonster 1373
---gcost 220
-#end
-
-/// Annunaki of the Morning Star
-#selectmonster 1374
---gcost 210
+/// Horned One
+#selectmonster 2450
+#gcost 200
+#prot 14
 #end
 
 /// Lord of the Forest
 #selectmonster 1378
 #gcost 180
+#startdom 4
 #domsummon2 1084 
+#startitem 176
 #end
 
-/// Keeper of the Bridge
-#selectmonster 1379
---gcost 180
-#end
-
-///Solar disc
-#selectmonster 1384
---gcost 220
-#end
-
-/// Father of Winters
-#selectmonster 1561
---gcost 190
-#end
-
-/// Fomorian King
-#selectmonster 1899
---gcost 230
-#end
-
-/// Son of the Fallen
+/// Matrona of the Healing Spring
 #selectmonster 2082
---gcost 210
-#end
---might be too good.
-
-/// Oni Kunshu
-#selectmonster 2203
---gcost 200
+#gcost 180
 #end
 
-/// Asynja
-#selectmonster 2239
---gcost 220
+/// Son of the Sea
+#selectmonster 2856
+#gcost 240
+#invulnerable 10
+#end
+
+
+/// Dagon
+#selectmonster 109
+#gcost 220
+#startdom 4
+#end
+
+/// Drakaina
+#selectmonster 1231
+#gcost 200
+#prot 14
+#startdom 4
+#end
+
+/// Father of Monsters
+#selectmonster 2849
+#gcost 200
+#prot 10
+#poisonres 5
+#startdom 4
+#end
+
+/// Lord of the Waves
+#selectmonster 1233
+#gcost 200
+#prot 10
+#poisonres 5
+#startdom 4
+#armor 212
+#end
+
+/// Old Man of the Sea
+#selectmonster 1232
+#gcost 200
+#prot 10
+#startdom 4
+#armor 230
+#end
+
+/// Nerid
+#selectmonster 294
+#gcost 180
+#awe 3
+#startdom 4
+#batstartsum2d6 1062
+#batstartsum6d6 816
+#end
+
+
+/// Celestial Carp
+#selectmonster 2556
+#prot 12
+#armor 230
+#gcost 160
+#startdom 4
+#end
+
+/// Celestial General
+#selectmonster 1345
+#prot 8
+#gcost 200
+#startdom 4
+#inspirational 2
+#end
+
+/// Dharmapala of the Underworld
+#selectmonster 3088
+#startdom 4
+#invulnerable 15
+#gcost 200
+#end
+
+/// Jade Emperor
+#selectmonster 905
+#startdom 4
+#nobadevents 100
+#gcost 160
+#end
+
+/// Kami of Storms
+#selectmonster 3074
+#startdom 4
+#gcost 200
+#weapon 243
+#airshield
+#armor 230
+#end
+
+/// Kami of the Moon
+#selectmonster 3073
+#startdom 4
+#invulnerable 10
+#magicpower 1
+#gcost 200
+#end
+
+/// Kami of the Sun
+#selectmonster 3072
+#startdom 4
+#gcost 220
+#end
+
+/// Nyorai
+#selectmonster 1339
+#gcost 160
+#prot 14
+#bringeroffortune 20
+#startdom 4
+#end
+
+
+
+/// Destroyer of worlds
+#selectmonster 1096
+#startdom 4
+#prot 8
+#gcost 180
+#airshield
+#end
+
+/// Devi of Good Fortunes
+#selectmonster 1344
+#prot 8
+#gcost 180
+#luck
+#giftofwater 100
+#startdom 4
+#end
+
+/// Devi of Darkness
+#selectmonster 1341
+#prot 8
+#gcost 220
+#darkvision 100
+#darkpower 2
+#startdom 4
+#end
+
+/// Nataraja
+#selectmonster 499
+#prot 8
+#gocst 220
+#startdom 4
+#clearweapons
+#weapon 120
+#weapon 75
+#weapon 245
+#weapon 347
+#end
+
+
+
+/// Lord of the Wild
+#selectmonster 812
+#gcost 220
+#startdom 4
+#prot 12
+#end
+
+/// Mother of Monsters
+#selectmonster 157
+#clearspec
+#prot 14
+#gcost 200
+#crossbreeder 20
+#poisonres 25
+#swampsurvival
+#poisoncloud 8
+#startdom 4
+#end
+
+/// Titan of Love
+#selectmonster 1343
+#gcost 200
+#armor 230
+#startdom 4
+#end
+
+/// Titan of Rivers
+#selectmonster 1342
+#gcost 210
+#startdom 4
+#armor 230
+#end
+
+/// Titan of Forethought
+#selectmonster 3123
+#gcost 220
+#startdom 4
+#armor 230
+#end
+
+/// Titan of Winds and Waves
+#selectmonster 2851
+#gcost 210
+#startdom 4
+#armor 230
 #end
 
 /// Titan of the Underworld
 #selectmonster  2431
---gcost 210
+#armor 230
+#invulnerable 15
+#startdom 4
 #end
 
-/// Teteo Inan
-#selectmonster 2434
---gcost 230
+/// Titan of Death and Rebirth
+#selectmonster 1371
+#gcost 180
+#armor 230
+#startdom 4
 #end
 
-/// Annunaki of Love and War
-#selectmonster 2435
---gcost 230
+/// Titan of the Forge
+#selectmonster 1230
+#prot 12
+#forgebonus 40
+#startdom 4
+#gcost 240
 #end
 
-/// Annunaki of the Moon
-#selectmonster 2436
---gcost 230
+/// Titan of Heaven
+#selectmonster 602
+#armor 230
+#flying
+#gcost 220
+#startdom 4
 #end
 
-/// Annunaki of Growth and Rebirth
-#selectmonster 2437
---gcost 220
+/// Titan of the Sea
+#selectmonster 961
+#gcost 200
+#giftofwater 125
+#startdom 4
 #end
 
-/// Annunaki of the Underworld
-#selectmonster 2438
---gcost 230
+
+/// Titan of the Hunt
+#selectmonster 3203
+#armor 192
+#gcost 200
+#startdom 4
+#stealthy 40
+#weapon 152
 #end
 
-/// Teotl of War
-#selectmonster 2442
---gcost 220
+/// Titan of War and Wisdom
+#selectmonster 600
+#gcost 220
+#spiritsight
+#startdom 4
 #end
 
-/// Teotl of the Sky
-#selectmonster  2443
---gcost 220
+/// Titan of Growth
+#selectmonster 3209
+#gcost 180
+#armor 230
+#supply 150
+#startdom 4
+#end
+
+/// Titan of the Spring
+#selectmonster 3208
+#gcost 200
+#armor 230
+#startdom 4
+#end
+
+/// Titan of Serpents and Medicine
+#selectmonster 1348
+#gcost 220
+#armor 230
+#autohealer 3
+#startdom 4
+#end
+
+
+
+/// Hun Came
+#selectmonster 2755
+#invulnerable 15
+#gcost 240
+#startdom 4
 #end
 
 /// Teotl of the Underworld
 #selectmonster 2444
---gcost 220
+#invulnerable 15
+#gcost 220
+#nobadevents 50
+#startdom 4
 #end
 
-/// Neter of the Underworld
-#selectmonster 2445
---gcost 230
+/// Teotl of the Sky
+#selectmonster  2443
+#flying
+#armor 192
+#gcost 200
+#startdom 4
 #end
 
-/// Neter of Kings
-#selectmonster 2446
---gcost 210
+/// Teotl of War
+#selectmonster 2442
+#armor 192
+#gcost 120
+#expertmagicleader
+#expertundeadleader
+#startdom 4
 #end
 
-/// Horned One
-#selectmonster 2450
---gcost 210
+/// Teotl of the Night
+#selectmonster 604
+#prot 12
+#gcost 220
+#startdom 4
 #end
 
-/// Neter of the Moon
-#selectmonster 2464
---gcost 240
+/// Teteo Inan
+#selectmonster 2434
+#prot 12
+#gcost 240
+#startdom 4
 #end
 
-/// Earth Made Flesh
-#selectmonster 2502
---gcost 250
+/// Teotl of rain
+#selectmonster 603
+#gcost 200
+#armor 192
+#onebattlespell 510
+#startdom 4
 #end
 
-/// Ahura of Wisdom
-#selectmonster 2552
---gcost 240
+
+
+/// Annunaki of Growth and Rebirth
+#selectmonster 2437
+#armor 230
+#gcost 220
+#startdom 4
 #end
 
-/// Celestial Carp
-#selectmonster 2556
---gcost 210
+/// Annunaki of the Moon
+#selectmonster 2436
+#armor 230
+#gcost 220
+#nobadevents 100
+#magicpower 1
+#startdom 4
+#end
+
+/// Annunaki of Sweet Waters
+#selectmonster 1373
+#gcost 200
+#armor 230
+#startdom 4
+#end
+
+/// Annunaki of the Sky
+#selectmonster 1372
+#armor 230
+#gcost 220
+#startdom 4
+#end
+
+/// Annunaki of the Underworld
+#selectmonster 2438
+#invulnerable 15
+#armor 230
+#gcost 230
+#startdom 4
+#end
+
+/// Annunaki of Love and War
+#selectmonster 2435
+#prot 8
+#gcost 220
+#startdom 4
+#def 13
+#end
+
+/// Annunaki of the Morning Star
+#selectmonster 1374
+#gcost 200
+#armor 230
+#startdom 4
+#end
+
+/// Lord of The Desert Sun
+#selectmonster 957
+#armor 192
+#gcost 200
+#startdom 4
+#end
+
+/// Lord of Summer Plague
+#selectmonster 1097
+#awe 1
+#armor 192
+#gcost 200
+#startdom 4
+#end
+
+/// Solar disc
+#selectmonster 1384
+#gcost 180
+#invulnerable 10
+#startdom 4
+#end
+
+
+
+
+
+/// Volla of the Bountiful Forest
+#selectmonster 1370
+#armor 192
+#gcost 180
+#startdom 4
+#end
+
+/// Father of Winters
+#selectmonster 1561
+#startdom 4
+#gcost 200
+#cold 40
+#end
+
+/// Asynja(Armored)
+#selectmonster 1098
+#gcost 200
+#startdom 4
+#end
+
+/// Allfather
+#selectmonster 501
+#invulnerable 10
+#gcost 240
+#clearweapons
+#weapon 120
+#weapon 338
+#weapon 338
+#startdom 4
+#end
+
+/// Asynja(Unarmored)
+#selectmonster 2239
+#armor 192
+#gcost 180
+#autodishealer 3
+#startdom 4
+#end
+
+/// Deives of the Sun
+#selectmonster 1098
+#gcost 210
+#armor 230
+#startdom 4
+#end
+
+/// Keeper of the Bridge
+#selectmonster 1379
+#gcost 200
+#patrolbonus 150
+/// Can't add Disbelieve
+#startdom 4
+#end
+
+
+
+/// Tiwaz of War
+#selectmonster 1340
+#fireres 5
+#reinvigoration 2
+#gcost 200
+#inspirational 2
+#startdom 4
+#end
+
+/// Colossal Fetish
+#selectmonster 1346
+#fear 5
+#gcost 230
 #end
 
 /// Angra Mainyu
 #selectmonster 2610
---gcost 230
+#invulnerable 10
+#armor 230
+#gcost 200
+#startdom 4
 #end
 
-/// Viracocha
-#selectmonster 2686
---gcost 240
+/// Ahura of Wisdom
+#selectmonster 2552
+#gcost 200
+#armor 230
+#invulnerable 10
+#startdom 4
+#end
+
+/// Earth Made Flesh
+#selectmonster 2502
+#gcost 220
+#prot 14
+#startdom 4
+#end
+
+/// Fomorian God-King
+#selectmonster 1899
+#gcost 220
+#clearweapons
+#weapon 487
+#weapon 21
+#cleararmor
+#armor 194
+#armor 92
+#armor 212
+#startdom 4
+#end
+
+/// Son of Niefel
+#selectmonster 605
+#prot 10
+#fear 5
+#gcost 230
+#cold 25
+#armor 46
+#startdom 4
+#end
+
+/// Son of the Fallen
+#selectmonster 2082
+#prot 16
+#incunrest 12
+#fear 10
+#poisonres 20
+#shockres 20
+#autohealer 1
+#startdom 4
 #end
 
 /// Apu Illapa
 #selectmonster 2698
---gcost 220
+#armor 192
+#gcost 200
+#weapon 243
+#startdom 4
 #end
 
-/// Hun Came
-#selectmonster 2755
---gcost 250
+/// Apu Inti
+#selectmonster 2686
+#armor 192
+#gcost 210
+#startdom 4
+#end
+
+/// Viracocha
+#selectmonster 2686
+#gcost 220
+#weapon 243
+#startdom 4
+#end
+
+/// Void Lord
+#selectmonster 652
+#startdom 4
+#gcost 180
+#prot 18
+#poisonres 5
+#end
+
+/// Oni Kunshu
+#selectmonster 2203
+#startdom 4
+#hp 80
+#armor 132
+#gcost 220
 #end
 
 
-/// Morrigna
-#selectmonster 3076
-#clearweapons
-#weapon 487
-#gcost 280
-#magicboost 53 1
-#end
-#selectmonster 3077
-#clearweapons
-#weapon 487
-#gcost 280
-#magicboost 53 1
-#end
-#selectmonster 3078
-#clearweapons
-#weapon 487
-#gcost 280
-#magicboost 53 1
-#end
+
+
+
+
+
+
 
 ---------------------------------------------------------------
 ***************************************************************
@@ -1577,6 +1910,26 @@ end
 ---------------------------------------------------------------
 
 ---*Trinities Pretenders*---
+
+/// Morrigna
+#selectmonster 3076
+#clearweapons
+#weapon 487
+#gcost 280
+#magicboost 53 1
+#end
+#selectmonster 3077
+#clearweapons
+#weapon 487
+#gcost 280
+#magicboost 53 1
+#end
+#selectmonster 3078
+#clearweapons
+#weapon 487
+#gcost 280
+#magicboost 53 1
+#end
 
 /// Grey one
 #selectmonster 3204
