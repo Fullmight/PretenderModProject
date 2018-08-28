@@ -122,12 +122,22 @@
 #selectmonster 653
 #hp 25
 #gcost 0
+#clearspec
+#poisonres 15
+#lamiabonus 2
+#shapechange 654
+#swampsurvival
 #end
-///How to remove cold blooded?
 ///Secondshape
 #selectmonster 654
+#clearspec
 #hp 30
 #gcost 0
+#poisonres 15
+#lamiabonus 2
+#animal
+#swampsurvival
+#shapechange 653
 #end
 
 /// Smoking Mirror
@@ -398,9 +408,15 @@
 
 /// Drakon
 #selectmonster 2783
+#clearspec
+#fear 10
+#poisonres 15
+#eyes 6
+#dragonmastery 1
+#unsurroundable 2
+#swampsurvival
 #gcost 210
 #prot 22
-/// Remove Cold Blooded
 #heal
 #end
 
@@ -414,29 +430,49 @@
 
 /// Serpent of Chaos
 #selectmonster 2793
+#clearspec
 #gcost 200
 #prot 20
-/// Remove Cold Blooded
+#regeneration 10
+#poisonres 15
+#darkvision 100
+#darkkpower 4
+#fear 10
+#amphibian
+#wastesurvival
+#swampsurvival
 #heal
 #end
 
 
 /// Solar Serpent
 #selectmonster 2792
+#clearspec
+#regeneration 10
+#fireres 15
+#poisonres 15
+#awe 3
+#wastesurvival
+#swampsurvival
 #gcost 180
 #prot 20
 #heat 20
 #armor 212
-/// Remove Cold Blooded
 #heal
 #end
 
 /// Wadjet
 #selectmonster 2799
+#clearspec
+#poisonres 15
+#springpower 25
+#fear 5
+#amphibian
+#wastesurvival
+#swampsurvival
 #gcost 180
 #prot 20
 #regeneration 20
-/// Remove Cold Blooded
 #heal
 #end
 
@@ -449,6 +485,14 @@
 
 /// Earth Serpent
 #selectmonster 2791
+#clearspec
+#poisonres 15
+#darkvision 50
+#fear 5
+#amphibian
+#mountainsurvival
+#swampsurvival
+#heal
 #gcost 200
 #prot 24
 #end
