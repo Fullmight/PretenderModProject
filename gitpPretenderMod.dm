@@ -1787,13 +1787,6 @@
 #end
 
 
-
-
-
-
-
-
-
 ---------------------------------------------------------------
 ***************************************************************
 ---------------------------------------------------------------
@@ -1802,108 +1795,146 @@
 
 /// Divine Glyph
 #selectmonster 1025
---gcost 120
+#gcost 100
+#startdom 6
 #end
 
-/// Statue Of War
+/// Statue Of War(Greek)
 #selectmonster 2463
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Monument
 #selectmonster 159
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Statue of Fertility
 #selectmonster 2460
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Statue of Order
 #selectmonster 472
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Golden idol
 #selectmonster 2462
---gcost 130
+#gcost 100
+#startdom 6
 #end
 
 /// Fountain of Blood
 #selectmonster 656
---gcost 150
+#gcost 100
+#startdom 6
 #end
 
 /// Oracle 
 #selectmonster 158
---gcost 140
-#clearmagic
-#magicskill 4 3
+#gcost 100
+#startdom 6
 #end
 
-/// Statue of War
+/// Statue of War(Asian)
 #selectmonster 2465
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Irminsul
 #selectmonster 2234
---gcost 150
+#gcost 100
+#startdom 6
 #end
 
 /// Golden Pillar
 #selectmonster 2503
---gcost 130
+#gcost 100
+#startdom 6
 #end
 
 /// Monolith
 #selectmonster 657
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Stone Huaca
 #selectmonster 2696
---gcost 120
+#gcost 100
+#startdom 6
 #end
 
 /// Baphomet
 #selectmonster 607
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Idol of Beasts
 #selectmonster 2448
---gcost 140
+#gcost 100
+#startdom 6
 #end
+
 /// Idol of Sorcery
 #selectmonster 2449
---gcost 140
+#gcost 100
+#startdom 6
 #end
+
 /// Idol of Men
 #selectmonster 2447
---gcost 140
+#gcost 100
+#startdom 6
 #end
+
 /// colossal Head
 #selectmonster 958
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Bloody Mother
 #selectmonster 2461
---gcost 150
+#gcost 100
+#startdom 6
 #end
 
 /// Void Lurker
 #selectmonster 546
---gcost 140
+#gcost 100
+#startdom 6
 #end
 
 /// Polypal Queen
 #selectmonster 1402
---gcost 130
+#gcost 100
+#startdom 6
 #end
 
+/// Statue of the Underworld
+#selectmonster 2850
+#gcost 100
+#startdom 6
+#end
+
+/// Protogenos of the Sea
+#selectmonster 2847
+#gcost 100
+#startdom 6
+#end
+
+/// Father of the Sea
+#selectmonster 2848
+#copystats 2847
+#end
 
 ---------------------------------------------------------------
 ***************************************************************
