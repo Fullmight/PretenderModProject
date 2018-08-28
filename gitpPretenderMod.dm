@@ -35,6 +35,12 @@
 #magicskill 2 1
 #end
 
+/// Grand Hydromancer
+#selectmonster 3055
+#gcost 0
+#hp 25
+#end
+
 /// Crone
 #selectmonster 249
 #hp 25
@@ -91,32 +97,37 @@
 #magicskill 7 1
 #magicskill 0 1
 #magicskill 4 1
+#pathcost 20
 #end
 
 /// Skratti
 #selectmonster 500
 #hp 50
-#gcost 0
+#gcost 20
+#douse 2
 #clearmagic
 #magicskill 2 1
-#magicskill 0 1
+#magicskill 7 1
 #end
 
 /// Arch Seraph
 #selectmonster 509
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
 #magicskill 1 2
+#magicskill 2 1
 #end
 
 /// Master Alchemist
 #selectmonster 550
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
 #magicskill 0 1
+#magicskill 1 1
 #magicskill 3 1
+#pathcost 20
 #end
 
 ///Serpent King
@@ -154,7 +165,8 @@
 /// Great Seer of the Deeps
 #selectmonster 873
 #hp 25
-#gcost 0
+#gcost 20
+#nobadevents 100
 #clearmagic
 #magicskill 2 1
 #magicskill 4 1
@@ -171,7 +183,8 @@
 /// Fomorian Sorceror
 #selectmonster 1898
 #hp 50
-#gcost 0
+#gcost 20
+#magicskill 6 1
 #end
 
 /// Great Sorceress
@@ -193,7 +206,8 @@
 /// Eldest Dwarf
 #selectmonster 2206
 #hp 25
-#gcost 0
+#gcost 20
+#fixforgebonus 1
 #end
 
 /// Great Sorceror
@@ -228,7 +242,11 @@
 /// King of Frozen Bones
 #selectmonster 2852
 #hp 40
-#gcost 0
+#gcost 20
+#clearmagic
+#magicskill 2 2
+#magicskill 5 1
+#giftofwater 40
 #end
 
 /// Morgen High Queen
@@ -254,10 +272,11 @@
 #end
 
 /// Centaur Great Sage
-#selectmonster 2961
+#selectmonster 2977
 #hp 35
-#gcost 0
+#gcost 20
 #inspiringres 1
+#magic skill 6 1
 #end
 
 /// Master Sorcerer
@@ -273,9 +292,10 @@
 /// Onmyo Hakase
 #selectmonster 2979
 #hp 25
-#gcost 0
+#gcost 20
 #clearmagic
 #magicskill 4 2
+#batstartsum1d6 2092
 #end
 
 /// Grand Hierophant
@@ -290,20 +310,25 @@
 /// Firstborn of the Star
 #selectmonster 3054
 #hp 40
-#gcost 0
+#magicskill 5 1
+#magicskill 1 1
+#gcost 30
+#pathcost 20
 #end
 
 /// Aphroi Sage
 #selectmonster 3056
 #hp 35
-#gcost 0
+#gcost 2
 #inspirational 2
+#inspiringres 1
 #end
 /// Land Shape
 #selectmonster 3057
 #hp 35
 #gcost 0
 #inspirational 2
+#inspiringres 1
 #end
 
 /// God-King of the Deep
@@ -319,12 +344,14 @@
 /// Magister Supreme
 #selectmonster 3059
 #hp 25
-#gcost 0
+#gcost 20
 #spy
 #stealthy 20
 #patrolbonus 30
 #clearmagic
 #magicskill 1 2
+#magicskill 4 1
+#pathcost 20
 #end
 
 /// Master
@@ -338,21 +365,24 @@
 /// Bone Mother
 #selectmonster 3190
 #hp 30
-#gcost 0
+#gcost 20
 #magicskill 3 1
+#spiritsight
+#nobadevents 50
 #end
 
 /// Enkidu Great Sage
 #selectmonster 3191
 #hp 30
-#gcost 10
+#gcost 20
 #magicskill 6 1
 #end
 
 /// Great Camazotz
 #selectmonster 3192
 #hp 25
-#gcost 0
+#gcost 30
+#douse 3
 #end
 
 /// Smoking Mirror
@@ -661,7 +691,7 @@
 
 /// Svartalf Mastersmith
 #selectmonster 2802
-#hp25
+#hp 25
 #leper 1
 #gcost 200
 #heal
@@ -692,13 +722,13 @@
 #end
 
 /// Uttervast
-#selectmonster 2440
+#selectmonster 2980
 #gcost 400
 #invulnerable 25
 #fear 15
 #magicpower 2
-#incunrest 15
-#popkill 150
+#incunrest 150
+#popkill 15
 #bonusspells 2
 #onebattlespell 976
 #heal
@@ -817,7 +847,7 @@
 #end
 
 /// Bolon-ti-kku
-#selectmonster 2881
+#selectmonster 2756
 #gcost 180
 #hp 60
 #invulnerable 15
@@ -946,7 +976,7 @@
 #magicskill 2 2
 #magicskill 4 2
 #weapon 274
-#weapon 274
+#gcost 80
 #end
 
 /// Heavenly Condor
@@ -1015,6 +1045,7 @@
 #startdom 2
 #taskmaster 5
 #weapon 536
+#gcost 110
 #end
 
 /// Lawgiver
@@ -1137,6 +1168,7 @@
 #clearmagic
 #magicskill 3 1
 #magicskill 5 3
+#gcost 160
 #end
 
 /// Bog Mummy
@@ -1834,7 +1866,7 @@
 #end
 
 /// Viracocha
-#selectmonster 2686
+#selectmonster 2685
 #gcost 220
 #weapon 243
 #startdom 4
@@ -2031,7 +2063,6 @@
 #selectmonster 3077
 #clearweapons
 #weapon 487
-#gcost 280
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
@@ -2040,7 +2071,6 @@
 #selectmonster 3078
 #clearweapons
 #weapon 487
-#gcost 280
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
