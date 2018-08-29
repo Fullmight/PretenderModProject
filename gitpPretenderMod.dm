@@ -132,10 +132,11 @@
 
 ///Serpent King
 #selectmonster 653
+#clearspec
 #hp 25
 #gcost 0
-#clearspec
 #poisonres 15
+#homerealm 7
 #lamiabonus 2
 #shapechange 654
 #swampsurvival
@@ -455,6 +456,7 @@
 #eyes 6
 #dragonmastery 1
 #unsurroundable 2
+#homerealm 3
 #swampsurvival
 #gcost 210
 #prot 22
@@ -474,6 +476,7 @@
 #clearspec
 #gcost 200
 #prot 20
+#homerealm 7
 #regeneration 10
 #poisonres 15
 #darkvision 100
@@ -494,6 +497,7 @@
 #poisonres 15
 #awe 3
 #wastesurvival
+#homerealm 7
 #swampsurvival
 #gcost 180
 #prot 20
@@ -512,6 +516,7 @@
 #wastesurvival
 #swampsurvival
 #gcost 180
+#homerealm 7
 #prot 20
 #regeneration 20
 #heal
@@ -531,6 +536,7 @@
 #darkvision 50
 #fear 5
 #amphibian
+#homerealm 10
 #mountainsurvival
 #swampsurvival
 #heal
@@ -1209,6 +1215,7 @@
 /// Cannot spread magic scales
 #magicpower 1
 #nobadevents 25
+#homerealm 7
 #wastesurvival
 #gcost 220
 #startdom 4
@@ -1248,6 +1255,7 @@
 #pathcost 10
 #armor 230
 #inspiringres 2
+#homerealm 7
 #researchbonus 10
 #wastesurvival
 #startdom 4
