@@ -1101,10 +1101,11 @@
 
 /// Lich Queen
 #selectmonster 395
-#hp 60
+#hp 30
 #prot 15
 #inspirational 1
-#batstartsum8d6 191
+#expertleader
+#batstartsum6d6 191
 #gcost 160
 #end
 
