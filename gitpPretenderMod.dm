@@ -278,7 +278,7 @@
 #hp 35
 #gcost 20
 #inspiringres 1
-#magic skill 6 1
+#magicskill 6 1
 #end
 
 /// Master Sorcerer
@@ -483,7 +483,7 @@
 #regeneration 10
 #poisonres 15
 #darkvision 100
-#darkkpower 4
+#darkpower 4
 #fear 10
 #amphibian
 #wastesurvival
@@ -1442,14 +1442,15 @@
 #startdom 4
 #prot 8
 #gcost 180
-#airshield
+#airshield 80
 #end
 
 /// Devi of Good Fortunes
 #selectmonster 1344
 #prot 8
 #gcost 180
-#luck
+// luck
+#onebattlespell 628 
 #giftofwater 100
 #startdom 4
 #end
@@ -1579,7 +1580,7 @@
 #selectmonster 3209
 #gcost 180
 #armor 230
-#supply 150
+#supplybonus 150
 #startdom 4
 #end
 
