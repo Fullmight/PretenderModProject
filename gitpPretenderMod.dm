@@ -137,6 +137,7 @@
 #gcost 0
 #poisonres 15
 #homerealm 7
+#startdom 1
 #lamiabonus 2
 #shapechange 654
 #swampsurvival
@@ -457,6 +458,7 @@
 #dragonmastery 1
 #unsurroundable 2
 #homerealm 3
+#startdom 2
 #swampsurvival
 #gcost 210
 #prot 22
@@ -477,6 +479,7 @@
 #gcost 200
 #prot 20
 #homerealm 7
+#startdom 2
 #regeneration 10
 #poisonres 15
 #darkvision 100
@@ -498,6 +501,7 @@
 #awe 3
 #wastesurvival
 #homerealm 7
+#startdom 2
 #swampsurvival
 #gcost 180
 #prot 20
@@ -517,6 +521,7 @@
 #swampsurvival
 #gcost 180
 #homerealm 7
+#startdom 2
 #prot 20
 #regeneration 20
 #heal
@@ -537,6 +542,7 @@
 #fear 5
 #amphibian
 #homerealm 10
+#startdom 2
 #mountainsurvival
 #swampsurvival
 #heal
@@ -1114,6 +1120,7 @@
 #batstartsum6d6 191
 #gcost 160
 #end
+//TESTING BATSTARTSUM
 
 /// Phoenix
 #selectmonster 608
