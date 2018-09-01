@@ -766,20 +766,20 @@
 #selectmonster 383
 #invulnerable 20
 #gcost 230
-#woundfend 3
+#woundfend 75
 #end
 
 /// Moloch
 #selectmonster 120
 #gcost 210
-#woundfend 3
+#woundfend 75
 #end
 
 /// Gorgon
 #selectmonster 138
 #gcost 210
 #prot 14
-#woundfend 3
+#woundfend 75
 #hp 50
 #end
 
@@ -791,14 +791,14 @@
 #att 14
 #def 16
 #gcost 210
-#woundfend 3
+#woundfend 75
 #end
 
 /// Daeva of Wrath
 #selectmonster 2627
 #gcost 210
 #invulnerable 20
-#woundfend 3
+#woundfend 75
 #hp 60
 #fear 10
 #end
@@ -807,7 +807,7 @@
 #selectmonster 2611
 #gcost 230
 #invulnerable 20
-#woundfend 3
+#woundfend 75
 #hp 60
 #end
 
@@ -815,7 +815,7 @@
 #selectmonster 2555
 #gcost 220
 #invulnerable 20
-#woundfend 3
+#woundfend 75
 #hp 60
 #end
 
@@ -823,7 +823,7 @@
 #selectmonster 2554
 #gcost 230
 #invulnerable 20
-#woundfend 3
+#woundfend 75
 #hp 60
 #batstartsum2d6 412
 #end
@@ -832,7 +832,7 @@
 #selectmonster 2553
 #gcost 230
 #invulnerable 20
-#woundfend 3
+#woundfend 75
 #hp 60
 #batstartsum3d6 598
 #end
@@ -841,21 +841,21 @@
 #selectmonster 2699
 #gcost 200
 #invulnerable 20
-#woundfend 3
+#woundfend 75
 #end
 
 /// Telkhine God-KKing
 #selectmonster 2881
 #gcost 240
 #invulnerable 15
-#woundfend 3
+#woundfend 75
 #armor 230
 #end
 #selectmonster 2882
 #gcost 240
 #invulnerable 15
 #armor 230
-#woundfend 3
+#woundfend 75
 #end
 
 /// Bolon-ti-kku
@@ -863,7 +863,7 @@
 #gcost 180
 #hp 60
 #invulnerable 15
-#woundfend 3
+#woundfend 75
 ///Needs more, but not sure what.
 #end
 
@@ -1100,6 +1100,7 @@
 #gcost 200
 #clearmagic
 #magicskill 5 4
+#woundfend 75
 #end
 
 /// Saurolich
@@ -1109,6 +1110,7 @@
 #clearmagic
 #magicskill 5 3
 #magicskill 6 1
+#woundfend 75
 #end
 
 /// Lich Queen
@@ -1118,6 +1120,7 @@
 #inspirational 1
 #expertleader
 #batstartsum6d6 191
+#woundfend 75
 #gcost 160
 #end
 //TESTING BATSTARTSUM
@@ -1129,6 +1132,7 @@
 #magicskill 1 2
 #awe 1
 #fireshield 5
+#heal
 #gcost 110
 #end
 
@@ -1137,13 +1141,14 @@
 #clearmagic
 #magicskill 5 3
 #magicskill 3 1
-#heal
+#woundfend 75
 #gcost 180
 #end
 
 /// Bakemono Kunshu
 #selectmonster 1428
 #armor 212
+#heal
 #gcost 90
 #end
 
@@ -1157,6 +1162,7 @@
 #att 13
 #def 13
 #prec 13
+#woundfend 75
 #gcost 210
 #end
 
@@ -1165,6 +1171,7 @@
 #hp 40
 #clearmagic
 #magicskill 4 2
+#heal
 #gcost 80
 #startdom 2
 #end
@@ -1172,8 +1179,9 @@
 /// Demilich
 #selectmonster 180
 #hp 10
+#woundfend 75
 #gcost 60
-#startdom 4
+#startdom 3
 #end
 
 /// Immortal Coya
@@ -1182,6 +1190,7 @@
 #clearmagic
 #magicskill 3 1
 #magicskill 5 3
+#woundfend 75
 #gcost 160
 #end
 
@@ -1190,6 +1199,7 @@
 #gcost 180
 #clearmagic
 #magicskill 7 1
+#woundfend 75
 #magicskill 5 3
 #end
 
@@ -1206,14 +1216,14 @@
 #gcost 220
 #armor 230
 #mastersmith 1
-#startdom 4
+#startdom 3
 #end
 
 /// Neteret of Joy
 #selectmonster 385
 #gcost 180
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Neteret of the Moon
@@ -1225,34 +1235,34 @@
 #homerealm 7
 #wastesurvival
 #gcost 220
-#startdom 4
+#startdom 3
 #end
 
 /// Neter of Kings
 #selectmonster 2446
 #gcost 200
 #awe 1
-#startdom 4
+#startdom 3
 #end
 
 /// Neter of the Underworld
 #selectmonster 2445
 #invulnerable 15
 #gcost 200
-#startdom 4
+#startdom 3
 #end
 
 /// Neter of Chaos
 #selectmonster 388
 #gcost 190
 #chaospower 2
-#startdom 4
+#startdom 3
 #end
 
 /// Neter of the Sun
 #selectmonster 386
 #gcost 200
-#startdom 4
+#startdom 3
 #end
 
 /// Neteret of Many Names
@@ -1265,34 +1275,34 @@
 #homerealm 7
 #researchbonus 10
 #wastesurvival
-#startdom 4
+#startdom 3
 #end
 
 
 /// Duiu of Farming
 #selectmonster 3080
 #gcost 200
-#startdom 4
+#startdom 3
 #armor 192
 #end
 
 /// Duiu of War
 #selectmonster 3081
 #gcost 200
-#startdom 4
+#startdom 3
 #prot 12
 #end
 
 /// Duiu of Thunder
 #selectmonster 3079
 #gcost 200
-#startdom 4
+#startdom 3
 #flying
 #end
 
 /// Great Mother
 #selectmonster 606
-#startdom 4
+#startdom 3
 #gcost 220
 ///Spring Immortal?
 #end
@@ -1301,13 +1311,13 @@
 #selectmonster 2450
 #gcost 200
 #prot 14
-#startdom 4
+#startdom 3
 #end
 
 /// Lord of the Forest
 #selectmonster 1378
 #gcost 180
-#startdom 4
+#startdom 3
 #domsummon2 1084 
 #startitem 176
 #end
@@ -1315,28 +1325,28 @@
 /// Matrona of the Healing Spring
 #selectmonster 3082
 #gcost 180
-#startdom 4
+#startdom 3
 #end
 
 /// Son of the Sea
 #selectmonster 2856
 #gcost 240
 #invulnerable 10
-#startdom 4
+#startdom 3
 #end
 
 
 /// Dagon
 #selectmonster 109
 #gcost 220
-#startdom 4
+#startdom 3
 #end
 
 /// Drakaina
 #selectmonster 1231
 #gcost 200
 #prot 14
-#startdom 4
+#startdom 3
 #end
 
 /// Father of Monsters
@@ -1344,7 +1354,7 @@
 #gcost 200
 #prot 10
 #poisonres 5
-#startdom 4
+#startdom 3
 #end
 
 /// Lord of the Waves
@@ -1352,7 +1362,7 @@
 #gcost 200
 #prot 10
 #poisonres 5
-#startdom 4
+#startdom 3
 #armor 212
 #end
 
@@ -1360,7 +1370,7 @@
 #selectmonster 1232
 #gcost 200
 #prot 10
-#startdom 4
+#startdom 3
 #armor 230
 #end
 
@@ -1368,7 +1378,7 @@
 #selectmonster 294
 #gcost 180
 #awe 3
-#startdom 4
+#startdom 3
 #batstartsum2d6 1062
 #batstartsum6d6 816
 #end
@@ -1379,34 +1389,34 @@
 #prot 12
 #armor 230
 #gcost 160
-#startdom 4
+#startdom 3
 #end
 
 /// Celestial General
 #selectmonster 1345
 #prot 8
 #gcost 200
-#startdom 4
+#startdom 3
 #inspirational 2
 #end
 
 /// Dharmapala of the Underworld
 #selectmonster 3088
-#startdom 4
+#startdom 3
 #invulnerable 15
 #gcost 200
 #end
 
 /// Jade Emperor
 #selectmonster 905
-#startdom 4
+#startdom 3
 #nobadevents 100
 #gcost 160
 #end
 
 /// Kami of Storms
 #selectmonster 3074
-#startdom 4
+#startdom 3
 #gcost 200
 #weapon 243
 #airshield 80
@@ -1415,7 +1425,7 @@
 
 /// Kami of the Moon
 #selectmonster 3073
-#startdom 4
+#startdom 3
 #invulnerable 10
 #magicpower 1
 #gcost 200
@@ -1423,7 +1433,7 @@
 
 /// Kami of the Sun
 #selectmonster 3072
-#startdom 4
+#startdom 3
 #gcost 220
 #end
 
@@ -1432,14 +1442,14 @@
 #gcost 160
 #prot 14
 #bringeroffortune 20
-#startdom 4
+#startdom 3
 #end
 
 
 
 /// Destroyer of worlds
 #selectmonster 1096
-#startdom 4
+#startdom 3
 #prot 8
 #gcost 180
 #airshield 80
@@ -1452,7 +1462,7 @@
 // luck
 #onebattlespell 628 
 #giftofwater 100
-#startdom 4
+#startdom 3
 #end
 
 /// Devi of Darkness
@@ -1461,13 +1471,13 @@
 #gcost 220
 #darkvision 100
 #darkpower 2
-#startdom 4
+#startdom 3
 #end
 
 /// Nataraja
 #selectmonster 499
 #prot 8
-#startdom 4
+#startdom 3
 #clearweapons
 #weapon 120
 #weapon 75
@@ -1481,7 +1491,7 @@
 /// Lord of the Wild
 #selectmonster 812
 #gcost 220
-#startdom 4
+#startdom 3
 #prot 12
 #end
 
@@ -1490,34 +1500,34 @@
 #prot 14
 #gcost 200
 #crossbreeder 20
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of Love
 #selectmonster 1343
 #gcost 200
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of Rivers
 #selectmonster 1342
 #gcost 210
-#startdom 4
+#startdom 3
 #armor 230
 #end
 
 /// Titan of Forethought
 #selectmonster 3124
 #gcost 220
-#startdom 4
+#startdom 3
 #armor 230
 #end
 
 /// Titan of Winds and Waves
 #selectmonster 2851
 #gcost 210
-#startdom 4
+#startdom 3
 #armor 230
 #end
 
@@ -1525,7 +1535,7 @@
 #selectmonster  2431
 #armor 230
 #invulnerable 15
-#startdom 4
+#startdom 3
 #gcost 240
 #end
 
@@ -1533,14 +1543,14 @@
 #selectmonster 1371
 #gcost 180
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of the Forge
 #selectmonster 1230
 #prot 12
 #forgebonus 40
-#startdom 4
+#startdom 3
 #gcost 240
 #end
 
@@ -1549,14 +1559,14 @@
 #armor 230
 #flying
 #gcost 220
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of the Sea
 #selectmonster 961
 #gcost 200
 #giftofwater 125
-#startdom 4
+#startdom 3
 #end
 
 
@@ -1564,7 +1574,7 @@
 #selectmonster 3203
 #armor 192
 #gcost 200
-#startdom 4
+#startdom 3
 #stealthy 40
 #weapon 152
 #end
@@ -1573,7 +1583,7 @@
 #selectmonster 600
 #gcost 220
 #spiritsight
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of Growth
@@ -1581,14 +1591,14 @@
 #gcost 180
 #armor 230
 #supplybonus 150
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of the Spring
 #selectmonster 3208
 #gcost 200
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of Serpents and Medicine
@@ -1596,7 +1606,7 @@
 #gcost 220
 #armor 230
 #autohealer 3
-#startdom 4
+#startdom 3
 #end
 
 
@@ -1605,7 +1615,7 @@
 #selectmonster 2755
 #invulnerable 15
 #gcost 240
-#startdom 4
+#startdom 3
 #end
 
 /// Teotl of the Underworld
@@ -1613,7 +1623,7 @@
 #invulnerable 15
 #gcost 220
 #nobadevents 50
-#startdom 4
+#startdom 3
 #end
 
 /// Teotl of the Sky
@@ -1621,7 +1631,7 @@
 #flying
 #armor 192
 #gcost 200
-#startdom 4
+#startdom 3
 #end
 
 /// Teotl of War
@@ -1630,21 +1640,21 @@
 #gcost 120
 #expertmagicleader
 #expertundeadleader
-#startdom 4
+#startdom 3
 #end
 
 /// Teotl of the Night
 #selectmonster 604
 #prot 12
 #gcost 220
-#startdom 4
+#startdom 3
 #end
 
 /// Teteo Inan
 #selectmonster 2434
 #prot 8
 #gcost 240
-#startdom 4
+#startdom 3
 #end
 
 /// Teotl of rain
@@ -1652,7 +1662,7 @@
 #gcost 200
 #armor 192
 #onebattlespell 510
-#startdom 4
+#startdom 3
 #end
 
 
@@ -1661,7 +1671,7 @@
 #selectmonster 2437
 #armor 230
 #gcost 220
-#startdom 4
+#startdom 3
 #end
 
 /// Annunaki of the Moon
@@ -1670,21 +1680,21 @@
 #gcost 220
 #nobadevents 100
 #magicpower 1
-#startdom 4
+#startdom 3
 #end
 
 /// Annunaki of Sweet Waters
 #selectmonster 1373
 #gcost 200
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Annunaki of the Sky
 #selectmonster 1372
 #armor 230
 #gcost 220
-#startdom 4
+#startdom 3
 #end
 
 /// Annunaki of the Underworld
@@ -1692,14 +1702,14 @@
 #invulnerable 15
 #armor 230
 #gcost 230
-#startdom 4
+#startdom 3
 #end
 
 /// Annunaki of Love and War
 #selectmonster 2435
 #prot 8
 #gcost 220
-#startdom 4
+#startdom 3
 #def 13
 #end
 
@@ -1707,14 +1717,14 @@
 #selectmonster 1374
 #gcost 200
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Lord of The Desert Sun
 #selectmonster 957
 #armor 192
 #gcost 200
-#startdom 4
+#startdom 3
 #end
 
 /// Lord of Summer Plague
@@ -1722,14 +1732,14 @@
 #awe 1
 #armor 192
 #gcost 200
-#startdom 4
+#startdom 3
 #end
 
 /// Solar disc
 #selectmonster 1384
 #gcost 180
 #invulnerable 10
-#startdom 4
+#startdom 3
 #end
 
 
@@ -1740,19 +1750,19 @@
 #selectmonster 1370
 #armor 192
 #gcost 180
-#startdom 4
+#startdom 3
 #end
 
 /// Father of Winters
 #selectmonster 1561
-#startdom 4
+#startdom 3
 #gcost 200
 #cold 40
 #end
 
 /// Asynja(Armored)
 #selectmonster 1098
-#startdom 4
+#startdom 3
 #gcost 200
 #end
 
@@ -1764,7 +1774,7 @@
 #weapon 120
 #weapon 338
 #weapon 338
-#startdom 4
+#startdom 3
 #end
 
 /// Asynja(Unarmored)
@@ -1772,14 +1782,14 @@
 #armor 192
 #gcost 180
 #autodishealer 3
-#startdom 4
+#startdom 3
 #end
 
 /// Deives of the Sun
 #selectmonster 3086
 #gcost 210
 #armor 230
-#startdom 4
+#startdom 3
 #end
 
 /// Keeper of the Bridge
@@ -1787,7 +1797,7 @@
 #gcost 200
 #patrolbonus 150
 /// Can't add Disbelieve
-#startdom 4
+#startdom 3
 #end
 
 
@@ -1798,7 +1808,7 @@
 #reinvigoration 2
 #gcost 200
 #inspirational 2
-#startdom 4
+#startdom 3
 #end
 
 /// Colossal Fetish
@@ -1812,7 +1822,7 @@
 #invulnerable 10
 #armor 230
 #gcost 200
-#startdom 4
+#startdom 3
 #end
 
 /// Ahura of Wisdom
@@ -1820,14 +1830,14 @@
 #gcost 200
 #armor 230
 #invulnerable 10
-#startdom 4
+#startdom 3
 #end
 
 /// Earth Made Flesh
 #selectmonster 2502
 #gcost 220
 #prot 14
-#startdom 4
+#startdom 3
 #end
 
 /// Fomorian God-King
@@ -1840,7 +1850,7 @@
 #armor 194
 #armor 92
 #armor 212
-#startdom 4
+#startdom 3
 #end
 
 /// Son of Niefel
@@ -1853,7 +1863,7 @@
 #armor 27
 #armor 225
 #armor 226
-#startdom 4
+#startdom 3
 #end
 
 /// Son of the Fallen
@@ -1864,7 +1874,7 @@
 #poisonres 20
 #shockres 20
 #autohealer 1
-#startdom 4
+#startdom 3
 #end
 
 /// Apu Illapa
@@ -1872,26 +1882,26 @@
 #armor 192
 #gcost 200
 #weapon 243
-#startdom 4
+#startdom 3
 #end
 
 /// Apu Inti
 #selectmonster 2686
 #armor 192
 #gcost 210
-#startdom 4
+#startdom 3
 #end
 
 /// Viracocha
 #selectmonster 2685
 #gcost 220
 #weapon 243
-#startdom 4
+#startdom 3
 #end
 
 /// Void Lord
 #selectmonster 652
-#startdom 4
+#startdom 3
 #gcost 180
 #prot 18
 #poisonres 5
@@ -1899,7 +1909,7 @@
 
 /// Oni Kunshu
 #selectmonster 2203
-#startdom 4
+#startdom 3
 #hp 80
 #armor 132
 #gcost 220
@@ -1915,145 +1925,171 @@
 /// Divine Glyph
 #selectmonster 1025
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Statue Of War(Greek)
 #selectmonster 2463
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Monument
 #selectmonster 159
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Statue of Fertility
 #selectmonster 2460
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Statue of Order
 #selectmonster 472
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Golden idol
 #selectmonster 2462
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Fountain of Blood
 #selectmonster 656
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Oracle 
 #selectmonster 158
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Statue of War(Asian)
 #selectmonster 2465
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Irminsul
 #selectmonster 2234
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Golden Pillar
 #selectmonster 2503
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Monolith
 #selectmonster 657
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Stone Huaca
 #selectmonster 2696
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Baphomet
 #selectmonster 607
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Idol of Beasts
 #selectmonster 2448
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Idol of Sorcery
 #selectmonster 2449
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Idol of Men
 #selectmonster 2447
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// colossal Head
 #selectmonster 958
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Bloody Mother
 #selectmonster 2461
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Void Lurker
 #selectmonster 546
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Polypal Queen
 #selectmonster 1402
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Statue of the Underworld
 #selectmonster 2850
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Protogenos of the Sea
 #selectmonster 2847
 #gcost 100
-#startdom 6
+#startdom 4
+#spreaddom 2
 #end
 
 /// Father of the Sea
 #selectmonster 2848
 #copystats 2847
 #copyspr 2847
+#gcost 100
+#startdom 4
+#spreaddom 2
 #end
 
 ---------------------------------------------------------------
@@ -2075,7 +2111,7 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
-#startdom 4
+#startdom 3
 #end
 #selectmonster 3077
 #clearweapons
@@ -2083,7 +2119,7 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
-#startdom 4
+#startdom 3
 #end
 #selectmonster 3078
 #clearweapons
@@ -2091,7 +2127,7 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
-#startdom 4
+#startdom 3
 #end
 
 /// Titan of Crossroads
@@ -2100,19 +2136,19 @@
 #magicboost 6 1
 #magicboost 4 1
 #magicboost 5 1
-#startdom 4
+#startdom 3
 #end
 #selectmonster 3206
 #gcost 240
 #magicboost 6 1
-#startdom 4
+#startdom 3
 #magicboost 4 1
 #magicboost 5 1
 #end
 #selectmonster 3307
 #gcost 240
 #magicboost 6 1
-#startdom 4
+#startdom 3
 #magicboost 4 1
 #magicboost 5 1
 #end
