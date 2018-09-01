@@ -1213,7 +1213,7 @@
 
 /// Neter of crafts
 #selectmonster 384
-#gcost 220
+#gcost 200
 #armor 230
 #mastersmith 1
 #startdom 3
@@ -1221,7 +1221,7 @@
 
 /// Neteret of Joy
 #selectmonster 385
-#gcost 180
+#gcost 160
 #armor 230
 #startdom 3
 #end
@@ -1234,13 +1234,13 @@
 #nobadevents 25
 #homerealm 7
 #wastesurvival
-#gcost 220
+#gcost 200
 #startdom 3
 #end
 
 /// Neter of Kings
 #selectmonster 2446
-#gcost 200
+#gcost 180
 #awe 1
 #startdom 3
 #end
@@ -1248,27 +1248,27 @@
 /// Neter of the Underworld
 #selectmonster 2445
 #invulnerable 15
-#gcost 200
+#gcost 180
 #startdom 3
 #end
 
 /// Neter of Chaos
 #selectmonster 388
-#gcost 190
+#gcost 170
 #chaospower 2
 #startdom 3
 #end
 
 /// Neter of the Sun
 #selectmonster 386
-#gcost 200
+#gcost 180
 #startdom 3
 #end
 
 /// Neteret of Many Names
 #selectmonster 387
 #clearspec
-#gcost 180
+#gcost 160
 #pathcost 10
 #armor 230
 #inspiringres 2
@@ -1281,21 +1281,21 @@
 
 /// Duiu of Farming
 #selectmonster 3080
-#gcost 200
+#gcost 180
 #startdom 3
 #armor 192
 #end
 
 /// Duiu of War
 #selectmonster 3081
-#gcost 200
+#gcost 180
 #startdom 3
 #prot 12
 #end
 
 /// Duiu of Thunder
 #selectmonster 3079
-#gcost 200
+#gcost 180
 #startdom 3
 #flying
 #end
@@ -1303,20 +1303,20 @@
 /// Great Mother
 #selectmonster 606
 #startdom 3
-#gcost 220
+#gcost 200
 ///Spring Immortal?
 #end
 
 /// Horned One
 #selectmonster 2450
-#gcost 200
+#gcost 180
 #prot 14
 #startdom 3
 #end
 
 /// Lord of the Forest
 #selectmonster 1378
-#gcost 180
+#gcost 160
 #startdom 3
 #domsummon2 1084 
 #startitem 176
@@ -1324,13 +1324,13 @@
 
 /// Matrona of the Healing Spring
 #selectmonster 3082
-#gcost 180
+#gcost 160
 #startdom 3
 #end
 
 /// Son of the Sea
 #selectmonster 2856
-#gcost 240
+#gcost 220
 #invulnerable 10
 #startdom 3
 #end
@@ -1338,20 +1338,20 @@
 
 /// Dagon
 #selectmonster 109
-#gcost 220
+#gcost 200
 #startdom 3
 #end
 
 /// Drakaina
 #selectmonster 1231
-#gcost 200
+#gcost 180
 #prot 14
 #startdom 3
 #end
 
 /// Father of Monsters
 #selectmonster 2849
-#gcost 200
+#gcost 180
 #prot 10
 #poisonres 5
 #startdom 3
@@ -1359,7 +1359,7 @@
 
 /// Lord of the Waves
 #selectmonster 1233
-#gcost 200
+#gcost 180
 #prot 10
 #poisonres 5
 #startdom 3
@@ -1368,7 +1368,7 @@
 
 /// Old Man of the Sea
 #selectmonster 1232
-#gcost 200
+#gcost 180
 #prot 10
 #startdom 3
 #armor 230
@@ -1376,7 +1376,7 @@
 
 /// Nerid
 #selectmonster 294
-#gcost 180
+#gcost 160
 #awe 3
 #startdom 3
 #batstartsum2d6 1062
@@ -1388,14 +1388,14 @@
 #selectmonster 2556
 #prot 12
 #armor 230
-#gcost 160
+#gcost 140
 #startdom 3
 #end
 
 /// Celestial General
 #selectmonster 1345
 #prot 8
-#gcost 200
+#gcost 180
 #startdom 3
 #inspirational 2
 #end
@@ -1404,20 +1404,20 @@
 #selectmonster 3088
 #startdom 3
 #invulnerable 15
-#gcost 200
+#gcost 180
 #end
 
 /// Jade Emperor
 #selectmonster 905
 #startdom 3
 #nobadevents 100
-#gcost 160
+#gcost 140
 #end
 
 /// Kami of Storms
 #selectmonster 3074
 #startdom 3
-#gcost 200
+#gcost 180
 #weapon 243
 #airshield 80
 #armor 230
@@ -1428,18 +1428,18 @@
 #startdom 3
 #invulnerable 10
 #magicpower 1
-#gcost 200
+#gcost 180
 #end
 
 /// Kami of the Sun
 #selectmonster 3072
 #startdom 3
-#gcost 220
+#gcost 200
 #end
 
 /// Nyorai
 #selectmonster 1339
-#gcost 160
+#gcost 140
 #prot 14
 #bringeroffortune 20
 #startdom 3
@@ -1451,15 +1451,14 @@
 #selectmonster 1096
 #startdom 3
 #prot 8
-#gcost 180
+#gcost 160
 #airshield 80
 #end
 
 /// Devi of Good Fortunes
 #selectmonster 1344
 #prot 8
-#gcost 180
-// luck
+#gcost 160
 #onebattlespell 628 
 #giftofwater 100
 #startdom 3
@@ -1468,7 +1467,7 @@
 /// Devi of Darkness
 #selectmonster 1341
 #prot 8
-#gcost 220
+#gcost 200
 #darkvision 100
 #darkpower 2
 #startdom 3
@@ -1483,14 +1482,14 @@
 #weapon 75
 #weapon 245
 #weapon 347
-#gcost 220
+#gcost 200
 #end
 
 
 
 /// Lord of the Wild
 #selectmonster 812
-#gcost 220
+#gcost 200
 #startdom 3
 #prot 12
 #end
@@ -1498,35 +1497,35 @@
 /// Mother of Monsters
 #selectmonster 157
 #prot 14
-#gcost 200
+#gcost 180
 #crossbreeder 20
 #startdom 3
 #end
 
 /// Titan of Love
 #selectmonster 1343
-#gcost 200
+#gcost 180
 #armor 230
 #startdom 3
 #end
 
 /// Titan of Rivers
 #selectmonster 1342
-#gcost 210
+#gcost 190
 #startdom 3
 #armor 230
 #end
 
 /// Titan of Forethought
 #selectmonster 3124
-#gcost 220
+#gcost 200
 #startdom 3
 #armor 230
 #end
 
 /// Titan of Winds and Waves
 #selectmonster 2851
-#gcost 210
+#gcost 190
 #startdom 3
 #armor 230
 #end
@@ -1536,12 +1535,12 @@
 #armor 230
 #invulnerable 15
 #startdom 3
-#gcost 240
+#gcost 220
 #end
 
 /// Titan of Death and Rebirth
 #selectmonster 1371
-#gcost 180
+#gcost 160
 #armor 230
 #startdom 3
 #end
@@ -1551,20 +1550,20 @@
 #prot 12
 #forgebonus 40
 #startdom 3
-#gcost 240
+#gcost 220
 #end
 
 /// Titan of Heaven
 #selectmonster 602
 #armor 230
 #flying
-#gcost 220
+#gcost 200
 #startdom 3
 #end
 
 /// Titan of the Sea
 #selectmonster 961
-#gcost 200
+#gcost 180
 #giftofwater 125
 #startdom 3
 #end
@@ -1573,7 +1572,7 @@
 /// Titan of the Hunt
 #selectmonster 3203
 #armor 192
-#gcost 200
+#gcost 180
 #startdom 3
 #stealthy 40
 #weapon 152
@@ -1581,14 +1580,14 @@
 
 /// Titan of War and Wisdom
 #selectmonster 600
-#gcost 220
+#gcost 200
 #spiritsight
 #startdom 3
 #end
 
 /// Titan of Growth
 #selectmonster 3209
-#gcost 180
+#gcost 160
 #armor 230
 #supplybonus 150
 #startdom 3
@@ -1596,14 +1595,14 @@
 
 /// Titan of the Spring
 #selectmonster 3208
-#gcost 200
+#gcost 180
 #armor 230
 #startdom 3
 #end
 
 /// Titan of Serpents and Medicine
 #selectmonster 1348
-#gcost 220
+#gcost 200
 #armor 230
 #autohealer 3
 #startdom 3
@@ -1614,14 +1613,14 @@
 /// Hun Came
 #selectmonster 2755
 #invulnerable 15
-#gcost 240
+#gcost 200
 #startdom 3
 #end
 
 /// Teotl of the Underworld
 #selectmonster 2444
 #invulnerable 15
-#gcost 220
+#gcost 200
 #nobadevents 50
 #startdom 3
 #end
@@ -1630,14 +1629,14 @@
 #selectmonster  2443
 #flying
 #armor 192
-#gcost 200
+#gcost 180
 #startdom 3
 #end
 
 /// Teotl of War
 #selectmonster 2442
 #armor 192
-#gcost 120
+#gcost 180
 #expertmagicleader
 #expertundeadleader
 #startdom 3
@@ -1646,20 +1645,20 @@
 /// Teotl of the Night
 #selectmonster 604
 #prot 12
-#gcost 220
+#gcost 200
 #startdom 3
 #end
 
 /// Teteo Inan
 #selectmonster 2434
 #prot 8
-#gcost 240
+#gcost 220
 #startdom 3
 #end
 
 /// Teotl of rain
 #selectmonster 603
-#gcost 200
+#gcost 180
 #armor 192
 #onebattlespell 510
 #startdom 3
@@ -1670,14 +1669,14 @@
 /// Annunaki of Growth and Rebirth
 #selectmonster 2437
 #armor 230
-#gcost 220
+#gcost 200
 #startdom 3
 #end
 
 /// Annunaki of the Moon
 #selectmonster 2436
 #armor 230
-#gcost 220
+#gcost 200
 #nobadevents 100
 #magicpower 1
 #startdom 3
@@ -1685,7 +1684,7 @@
 
 /// Annunaki of Sweet Waters
 #selectmonster 1373
-#gcost 200
+#gcost 180
 #armor 230
 #startdom 3
 #end
@@ -1693,7 +1692,7 @@
 /// Annunaki of the Sky
 #selectmonster 1372
 #armor 230
-#gcost 220
+#gcost 200
 #startdom 3
 #end
 
@@ -1701,21 +1700,21 @@
 #selectmonster 2438
 #invulnerable 15
 #armor 230
-#gcost 230
+#gcost 210
 #startdom 3
 #end
 
 /// Annunaki of Love and War
 #selectmonster 2435
 #prot 8
-#gcost 220
+#gcost 200
 #startdom 3
 #def 13
 #end
 
 /// Annunaki of the Morning Star
 #selectmonster 1374
-#gcost 200
+#gcost 180
 #armor 230
 #startdom 3
 #end
@@ -1723,7 +1722,7 @@
 /// Lord of The Desert Sun
 #selectmonster 957
 #armor 192
-#gcost 200
+#gcost 180
 #startdom 3
 #end
 
@@ -1731,13 +1730,13 @@
 #selectmonster 1097
 #awe 1
 #armor 192
-#gcost 200
+#gcost 180
 #startdom 3
 #end
 
 /// Solar disc
 #selectmonster 1384
-#gcost 180
+#gcost 160
 #invulnerable 10
 #startdom 3
 #end
@@ -1749,27 +1748,27 @@
 /// Volla of the Bountiful Forest
 #selectmonster 1370
 #armor 192
-#gcost 180
+#gcost 160
 #startdom 3
 #end
 
 /// Father of Winters
 #selectmonster 1561
 #startdom 3
-#gcost 200
+#gcost 180
 #cold 40
 #end
 
 /// Asynja(Armored)
 #selectmonster 1098
 #startdom 3
-#gcost 200
+#gcost 180
 #end
 
 /// Allfather
 #selectmonster 501
 #invulnerable 10
-#gcost 240
+#gcost 220
 #clearweapons
 #weapon 120
 #weapon 338
@@ -1780,21 +1779,21 @@
 /// Asynja(Unarmored)
 #selectmonster 2239
 #armor 192
-#gcost 180
+#gcost 160
 #autodishealer 3
 #startdom 3
 #end
 
 /// Deives of the Sun
 #selectmonster 3086
-#gcost 210
+#gcost 190
 #armor 230
 #startdom 3
 #end
 
 /// Keeper of the Bridge
 #selectmonster 1379
-#gcost 200
+#gcost 180
 #patrolbonus 150
 /// Can't add Disbelieve
 #startdom 3
@@ -1806,7 +1805,7 @@
 #selectmonster 1340
 #fireres 5
 #reinvigoration 2
-#gcost 200
+#gcost 180
 #inspirational 2
 #startdom 3
 #end
@@ -1814,20 +1813,21 @@
 /// Colossal Fetish
 #selectmonster 1346
 #fear 5
-#gcost 230
+#gcost 210
+#startdom 3
 #end
 
 /// Angra Mainyu
 #selectmonster 2610
 #invulnerable 10
 #armor 230
-#gcost 200
+#gcost 180
 #startdom 3
 #end
 
 /// Ahura of Wisdom
 #selectmonster 2552
-#gcost 200
+#gcost 180
 #armor 230
 #invulnerable 10
 #startdom 3
@@ -1835,14 +1835,14 @@
 
 /// Earth Made Flesh
 #selectmonster 2502
-#gcost 220
+#gcost 200
 #prot 14
 #startdom 3
 #end
 
 /// Fomorian God-King
 #selectmonster 1899
-#gcost 220
+#gcost 200
 #clearweapons
 #weapon 487
 #weapon 21
@@ -1857,7 +1857,7 @@
 #selectmonster 605
 #prot 10
 #fear 5
-#gcost 230
+#gcost 210
 #cold 25
 #cleararmor
 #armor 27
@@ -1880,7 +1880,7 @@
 /// Apu Illapa
 #selectmonster 2698
 #armor 192
-#gcost 200
+#gcost 180
 #weapon 243
 #startdom 3
 #end
@@ -1888,13 +1888,13 @@
 /// Apu Inti
 #selectmonster 2686
 #armor 192
-#gcost 210
+#gcost 190
 #startdom 3
 #end
 
 /// Viracocha
 #selectmonster 2685
-#gcost 220
+#gcost 200
 #weapon 243
 #startdom 3
 #end
@@ -1902,7 +1902,7 @@
 /// Void Lord
 #selectmonster 652
 #startdom 3
-#gcost 180
+#gcost 160
 #prot 18
 #poisonres 5
 #end
@@ -1912,7 +1912,7 @@
 #startdom 3
 #hp 80
 #armor 132
-#gcost 220
+#gcost 200
 #end
 
 
