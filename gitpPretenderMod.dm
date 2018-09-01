@@ -2140,16 +2140,12 @@
 #startdom 3
 #end
 #selectmonster 3206
-#gcost 240
 #magicboost 6 1
-#startdom 3
 #magicboost 4 1
 #magicboost 5 1
 #end
 #selectmonster 3307
-#gcost 240
 #magicboost 6 1
-#startdom 3
 #magicboost 4 1
 #magicboost 5 1
 #end
