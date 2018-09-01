@@ -1875,6 +1875,7 @@
 #shockres 20
 #autohealer 1
 #startdom 3
+#gcost 260
 #end
 
 /// Apu Illapa
