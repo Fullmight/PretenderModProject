@@ -239,6 +239,7 @@
 #clearmagic
 #magicskill 4 2
 #magicskill 6 1
+#pathcost 20
 #end
 
 /// King of Frozen Bones
