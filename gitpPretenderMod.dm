@@ -2121,7 +2121,6 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
-#startdom 3
 #end
 #selectmonster 3078
 #clearweapons
@@ -2129,7 +2128,6 @@
 #magicboost 1 1
 #magicboost 4 1
 #magicboost 5 1
-#startdom 3
 #end
 
 /// Titan of Crossroads
