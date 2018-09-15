@@ -150,6 +150,7 @@
 #poisonres 15
 #lamiabonus 2
 #animal
+#snake
 #swampsurvival
 #shapechange 653
 #end
@@ -457,6 +458,7 @@
 #poisonres 15
 #eyes 6
 #dragonmastery 1
+#lizard
 #unsurroundable 2
 #homerealm 3
 #startdom 2
@@ -482,6 +484,7 @@
 #homerealm 7
 #startdom 2
 #regeneration 10
+#snake
 #poisonres 15
 #darkvision 100
 #darkpower 4
@@ -500,6 +503,7 @@
 #fireres 15
 #poisonres 15
 #awe 3
+#snake
 #wastesurvival
 #homerealm 7
 #startdom 2
@@ -520,6 +524,7 @@
 #amphibian
 #wastesurvival
 #swampsurvival
+#snake
 #gcost 180
 #homerealm 7
 #startdom 2
@@ -542,6 +547,7 @@
 #darkvision 50
 #fear 5
 #amphibian
+#snake
 #homerealm 10
 #startdom 2
 #mountainsurvival
