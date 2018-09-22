@@ -465,6 +465,7 @@
 #swampsurvival
 #gcost 210
 #prot 22
+#pathcost 80
 #heal
 #end
 
@@ -487,6 +488,7 @@
 #snake
 #poisonres 15
 #darkvision 100
+#pathcost 80
 #darkpower 4
 #fear 10
 #amphibian
@@ -511,6 +513,7 @@
 #gcost 180
 #prot 20
 #heat 20
+#pathcost 80
 #armor 212
 #heal
 #end
@@ -524,6 +527,7 @@
 #amphibian
 #wastesurvival
 #swampsurvival
+#pathcost 80
 #snake
 #gcost 180
 #homerealm 7
@@ -550,6 +554,7 @@
 #snake
 #homerealm 10
 #startdom 2
+#pathcost 80
 #mountainsurvival
 #swampsurvival
 #heal
@@ -1242,6 +1247,7 @@
 #homerealm 7
 #wastesurvival
 #gcost 200
+#pathcost 30
 #startdom 3
 #end
 
