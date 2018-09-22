@@ -4,7 +4,7 @@
 --icon ""
 #end
 
-/// *********** Abysian Age Changes
+*********************** Abysian Age Changes **************************
 #selectmonster 81
 #maxage 45
 #end
@@ -81,7 +81,7 @@
 #maxage 45
 #end
 
-/// *******Caelum Base Stat Changes
+************************ Caelum Base Stat Changes ******************
 #selectmonster 127
 #ap 12
 #str 10
@@ -466,7 +466,7 @@
 #hp 14
 #end
 
-///  ********* Bakemono Race Changes
+************************ Bakemono Race Changes ********************
 #selectmonster 1393
 #size 1
 #formationfighter -1
@@ -515,4 +515,255 @@
 #selectmonster 1845
 #size 1
 #formationfighter -1
+#end
+
+************************** Xibalban Toads ********************
+#selectmonster 2714
+#poisonres 3
+#end
+#selectmonster 2715
+#poisonres 3
+#end
+#selectmonster 2716
+#poisonres 3
+#end
+#selectmonster 2718
+#poisonres 3
+#end
+#selectmonster 2720
+#poisonres 3
+#end
+#selectmonster 2721
+#poisonres 3
+#end
+#selectmonster 2722
+#poisonres 3
+#end
+#selectmonster 2723
+#poisonres 3
+#end
+#selectmonster 2724
+#poisonres 3
+#end
+#selectmonster 2725
+#poisonres 3
+#end
+#selectmonster 2726
+#poisonres 3
+#end
+#selectmonster 2727
+#poisonres 3
+#end
+#selectmonster 2728
+#poisonres 3
+#end
+#selectmonster 2729
+#poisonres 3
+#end
+#selectmonster 2730
+#poisonres 8
+#end
+#selectmonster 2731
+#poisonres 8
+#end
+#selectmonster 2732
+#poisonres 8
+#end
+#selectmonster 2887
+#poisonres 3
+#end
+#selectmonster 2888
+#poisonres 3
+#end
+#selectmonster 2744
+#poisonres 3
+#end
+#selectmonster 2745
+#poisonres 3
+#end
+#selectmonster 2746
+#poisonres 3
+#end
+#selectmonster 2747
+#poisonres 3
+#end
+#selectmonster 2748
+#poisonres 3
+#end
+#selectmonster 2749
+#poisonres 3
+#end
+#selectmonster 2789
+#poisonres 3
+#end
+#selectmonster 2790
+#poisonres 3
+#end
+#selectmonster 2791
+#poisonres 3
+#end
+
+********************************NATIONAL CHANGES*******************
+/// EA Ulm
+-Antlered Shaman
+#selectmonster 1161
+#rpcost 2
+#end
+
+/// EA Sauromatia
+-Androphag
+#selectmonster 1176
+#poisonres 3
+#end
+-Witch King
+#selectmonster 1178
+#poisonres 3
+#end
+-Manflayer
+#selectmonster 1177
+#poisonres 3
+#end
+-Androphag Archer
+#selectmonster 1183
+#poisonres 3
+#end
+
+/// EA T'ien Ch'i
+-Warrior of Five Elements
+#selectmonster 1544
+#prot 10
+#fireres 10
+#coldres 10
+#poisonres 10
+#shockres 10
+#fallpower 50
+#end
+
+/// EA Machaka
+-Machakan Spear
+#selectweapon 315
+#att 0
+#def 0
+#end
+-Machakan Sorcerer
+#selectmonster 2295
+#noslowrec
+#rpcost 3
+#clearmagic
+#magicskill 0 1
+#magicskill 5 1
+#magicskill 6 1
+#custommagic 13440 200
+#custommagic 13440 10
+#end
+-Lion King
+#selectmonster 2296
+#magicskill 8 3
+#end
+-Lion Queen
+#selectmonster 2297
+#magicskill 8 2
+#end
+
+/// EA Agartha
+-Engraver
+#selectmonster 2491
+#researchbonus 1
+#end
+-Great Olm
+#selectmonster 2492
+#reclimit 3
+#end
+
+/// Tir Na n'Og
+-Sidhe Warriors
+#selectmonster 1751
+#reclimit 5
+#hp 14
+#att 13
+#def 14
+#end
+-Tuatha Warriors
+#selectmonster 1753
+#hp 15
+#att 14
+#def 15
+#end
+
+/// Fomoria
+-Nemedian Warrior
+#selectmonster 1790
+#reclimit 5
+#end
+
+/// Niefelheim
+-Jotun Skratti
+#selectmonster 553
+#nowslowrec
+#rpcost 3
+#end
+
+/// Rus
+-Rusian Wizard
+#selectmonster 2987
+#clearmagic
+#magicskill 0 1
+#magicskill 6 1
+#custommagic 11648 100
+#end
+-Thunder Priest
+#selectmonster 2988
+#gcost 185
+#researchbonus -4
+#end
+#selectnation 24
+#likesterr 128
+#end
+
+/// Kailasa
+#selectnation 25
+#fireblessbonus 2
+#airblessbonus 2
+#waterblessbonus 2
+#earthblessbonus 2
+#astralblessbonus 2
+#natureblessbonus 2
+#end
+
+/// Lanka
+#selectnation 26
+#spreadchaos 2
+#end
+
+/// Yomi
+#selectnation 27
+#spreadchaos 3
+#end
+-Oni Shugo
+#selectmonster 1276
+#magicskill 8 1
+#end
+
+/// Ur
+#selectnation 29
+#likesterr 32
+#end
+-Gala
+#selectmonster 2182
+#elegist 4
+#end
+-Mushussu
+#selectmonster 2962
+#gcost 100
+#end
+
+/// EA Atlantis
+-Mage of the Deep
+#selectmonster 1692
+#researchbonus 2
+#end
+-Basalt King
+#selectmonster 1702
+#fixforgebonus 1
+#resources 25
 #end
