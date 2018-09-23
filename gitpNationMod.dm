@@ -469,31 +469,31 @@
 ************************ Bakemono Race Changes ********************
 #selectmonster 1393
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1394
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1395
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 2467
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1390
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1391
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1392
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1396
 #size 2
@@ -506,15 +506,15 @@
 #end
 #selectmonster 1608
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1963
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 #selectmonster 1845
 #size 1
-#formationfighter -1
+#formationfighter -2
 #end
 
 ************************** Xibalban Toads ********************
@@ -604,6 +604,24 @@
 #end
 
 ********************************NATIONAL CHANGES*******************
+
+////////////  EARLY AGE
+
+
+/// EA Arco
+-Mystic
+#selectmonster 311
+#clearmagic
+#magicskill 4 1
+#custommagic 1664 100
+#custommagic 128 50
+#custommagic 512 50
+#custommagic 1024 50
+#custommagic 2048 50
+#fastcast 20
+#allrange 1
+#end
+
 /// EA Ulm
 -Antlered Shaman
 #selectmonster 1161
@@ -704,13 +722,6 @@
 #end
 
 /// Rus
--Rusian Wizard
-#selectmonster 2987
-#clearmagic
-#magicskill 0 1
-#magicskill 6 1
-#custommagic 11648 100
-#end
 -Thunder Priest
 #selectmonster 2988
 #gcost 185
@@ -733,6 +744,10 @@
 /// Lanka
 #selectnation 26
 #spreadchaos 2
+#end
+-Kala Mukha Warrior
+#selectmonster 1763
+#chaosrec 3
 #end
 
 /// Yomi
@@ -766,4 +781,14 @@
 #selectmonster 1702
 #fixforgebonus 1
 #resources 25
+#end
+
+////////////////  MIDDLE AGE
+
+/// MA Arco
+/// See EA Mystics
+-Astrologer
+#selectmonster 301
+#rpcost 2
+#astralrange 2
 #end
