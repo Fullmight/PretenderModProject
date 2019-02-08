@@ -945,7 +945,7 @@
 #gcost 180
 #clearmagic
 #magicskill 5 4
-//// Corpse Eater issues
+#minprison 1
 #end
 
 /// Rams-Headed Serpent
@@ -961,7 +961,7 @@
 #clearmagic
 #magicskill 5 2
 #magicskill 2 2
-//// Corpse Eater issues
+#minprison 1
 #end
 
 /// Demon Macaw
@@ -1013,11 +1013,10 @@
 #selectmonster 2457
 #hp 60
 #autohealer 3
-///Can't seem to modify Disbelieve
 #clearmagic
 #magicskill 1 2
 #magicskill 4 2
-#gcost 140
+#gcost 120
 #end
 
 
