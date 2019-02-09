@@ -656,6 +656,37 @@
 #shockres 10
 #fallpower 50
 #end
+-Master of the Five Elements
+#selectmonster 940
+#clearmagic
+#magicskill 0 1
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 3 1
+#magicskill 6 1
+#magicskill 8 1
+#custommagic 128 50
+#custommagic 256 50
+#custommagic 512 50
+#custommagic 1024 50
+#custommagic 8192 50
+#end
+-Celestial Master
+#selectmonster 941
+#clearmagic
+#magicskill 0 1
+#magicskill 1 1
+#magicskill 2 2
+#magicskill 4 1
+#magicskill 8 2
+#custommagic 256 50
+#custommagic 512 50
+#custommagic 2048 50
+#custommagic 128 50
+#custommagic 1024 50
+#custommagic 4096 50
+#custommagic 8192 50
+#end
 
 /// EA Machaka
 -Machakan Spear
@@ -740,6 +771,10 @@
 #astralblessbonus 2
 #natureblessbonus 2
 #end
+#selectsite 98
+#incscale 5
+#gems 4 2
+#end
 
 /// Lanka
 #selectnation 26
@@ -792,3 +827,102 @@
 #rpcost 2
 #astralrange 2
 #end
+
+//// MA Sceleria
+- Scelerian Cultists
+#selectnation 45
+#addforeigncom 2244
+#end
+#selectmonster 2244
+#slowrec
+#end
+-Shadow Vestals
+#selectmonster 809
+#cleararmor
+#armor 92
+#end
+-Grand Thaumaturg
+#selectmonster 670
+#clearmagic
+#magicskill 4 2
+#magicskill 5 2
+#custommagic 6144 100
+#custommagic 6912 50
+#end
+
+/// MA Eriu
+- Daoine Sidhe
+#selectmonster 849
+#hp 14
+#att 13
+#def 14
+#end
+#selectnation 48
+#addrecunit 849
+#end
+
+/// MA Tien
+- Imperial Alchemist
+#selectmonster 1892
+#noslowrec
+#end
+- Celestial Master
+#selectmonster 803
+#clearmagic
+#magicskill 1 1
+#magicskill 2 2
+#magicskill 3 1
+#magicskill 4 1
+#custommagic 256 50
+#custommagic 512 50
+#custommagic 2048 50
+#custommagic 8192 50
+#end
+
+/// MA Machaka
+- Spider Archer
+#selectmonster 3097
+#stealthy 0
+#end
+-Sorcerer
+#selectmonster 893
+#clearmagic
+#magicskill 0 1
+#magicskill 5 1
+#magicskill 6 2
+#custommagic 12416 100
+#end
+-Sorceress
+#selectmonster 891
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 5 1
+#custommagic 13440 50
+#end
+
+/// MA Vanarus
+- Chud Hirdmen
+#selectmonster 2350
+#gcost 30
+#end
+- Chud Skinshifter
+#selectmonster 2352
+#hp 22
+#berserk 2
+#end
+#selectmonster 2351
+#berserk 2
+#end
+- Vanarusian Berserker
+#selectmonster 3071
+#gcost 14
+#end
+
+/// MA Shinuyama
+/// See all of the Bakemono changes
+-Bakemono Shaman
+#selectmonster 1608
+#researchbonus 0
+#end
+
