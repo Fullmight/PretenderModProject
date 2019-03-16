@@ -872,11 +872,9 @@
 
 /// Bolon-ti-kku
 #selectmonster 2756
-#gcost 180
+#gcost 140
 #hp 60
-#invulnerable 15
 #woundfend 75
-///Needs more, but not sure what.
 #end
 
 ---------------------------------------------------------------
@@ -1315,8 +1313,7 @@
 /// Great Mother
 #selectmonster 606
 #startdom 3
-#gcost 200
-///Spring Immortal?
+#gcost 180
 #end
 
 /// Horned One

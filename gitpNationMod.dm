@@ -618,8 +618,6 @@
 #custommagic 512 50
 #custommagic 1024 50
 #custommagic 2048 50
-#fastcast 20
-#allrange 1
 #end
 
 /// EA Ulm
@@ -698,12 +696,6 @@
 #selectmonster 2295
 #noslowrec
 #rpcost 3
-#clearmagic
-#magicskill 0 1
-#magicskill 5 1
-#magicskill 6 1
-#custommagic 13440 200
-#custommagic 13440 10
 #end
 -Lion King
 #selectmonster 2296
@@ -713,36 +705,65 @@
 #selectmonster 2297
 #magicskill 8 2
 #end
-
-/// EA Agartha
--Engraver
-#selectmonster 2491
-#researchbonus 1
+-Spider Clan Warrior
+#selectmonster 2302
+#stealthy 0
 #end
--Great Olm
-#selectmonster 2492
-#reclimit 3
+-Spider Clan Archer
+#selectmonster 2301
+#stealthy 0
+#end
+-War Lion
+#selectmonster 2306
+#prot 7
+#end
+
+/// EA C'tis
+-Lizard King
+#selectmonster 177
+#noslowrec
+#rpcost 3
+#end
+-Lizard Chariot
+#selectmonster 1365
+#gcost 35
 #end
 
 /// Tir Na n'Og
--Sidhe Warriors
-#selectmonster 1751
-#reclimit 5
-#hp 14
-#att 13
-#def 14
-#end
 -Tuatha Warriors
 #selectmonster 1753
 #hp 15
 #att 14
 #def 15
 #end
+-Fir Bolgs Getting Hats
+#selectmonster 1749
+#armor 120
+#end
+#selectmonster 1758
+#armor 120
+#end
+#selectmonster 1757
+#armor 120
+#end
+#selectmonster 1756
+#armor 120
+#end
 
 /// Fomoria
 -Nemedian Warrior
 #selectmonster 1790
 #reclimit 5
+#end
+-Fir Bolgs Getting Hats
+#selectmonster 1812
+#armor 120
+#end
+#selectmonster 1813
+#armor 120
+#end
+#selectmonster 1814
+#armor 120
 #end
 
 /// Niefelheim
@@ -755,11 +776,22 @@
 /// Rus
 -Thunder Priest
 #selectmonster 2988
-#gcost 185
-#researchbonus -4
+#gcost 200
 #end
 #selectnation 24
 #likesterr 128
+#end
+-Son of Heaven
+#selectmonster 3000
+#gcost 220
+#end
+-Daughter of Heaven
+#selectmonster 3001
+#gcost 220
+#end
+-Chud Berserker
+#selectmonster 2994
+#gcost 30
 #end
 
 /// Kailasa
@@ -780,18 +812,10 @@
 #selectnation 26
 #spreadchaos 2
 #end
--Kala Mukha Warrior
-#selectmonster 1763
-#chaosrec 3
-#end
 
 /// Yomi
 #selectnation 27
 #spreadchaos 3
-#end
--Oni Shugo
-#selectmonster 1276
-#magicskill 8 1
 #end
 
 /// Ur
@@ -806,16 +830,88 @@
 #selectmonster 2962
 #gcost 100
 #end
+-Hats for Armored Enkidu
+#selectmonster 2174
+#armor 120
+#end
+#selectmonster 2176
+#armor 120
+#end
+#selectmonster 2177
+#armor 120
+#end
+#selectmonster 2175
+#armor 120
+#end
+#selectmonster 2172
+#armor 120
+#end
 
 /// EA Atlantis
--Mage of the Deep
-#selectmonster 1692
-#researchbonus 2
-#end
 -Basalt King
 #selectmonster 1702
-#fixforgebonus 1
 #resources 25
+#end
+
+/// EA R'lyeh
+-Androdai
+#selectmonster 2885
+#gcost 140
+#end
+-Mind Vessel
+#selectspell 489
+#fatiguecost 1000
+#end
+
+/// EA Oceania
+-Ichtycentaurs
+#selectmonster 1408
+#hp 22
+#str 14
+#end
+#selectmonster 1409
+#gcost 30
+#hp 22
+#str 14
+#weapon 55
+#end
+-Ichysatyr
+#selectmonster 1042
+#gcost 9
+#end
+-Aphroi
+#selectmonster 2402
+#weapon 55
+#gcost 55
+#end
+-Capricorn
+#selectmonster 1038
+#clearmagic
+#magicskill 6 4
+#magicskill 2 2
+#custommagic 1792 100
+#custommagic 1792 20
+#end
+#selectmonster 1039
+#clearmagic
+#magicskill 6 4
+#magicskill 2 1
+#magicskill 3 1
+#custommagic 1792 100
+#custommagic 1792 20
+#end
+
+/// EA Therados
+-Daktyl
+#selectmonster 2836
+#resources 10
+#end
+-Kabeiros
+#selectmonster 2835
+#clearmagic
+#magicskill 3 1
+#custommagic 1024 50
+#custommagic 896 100
 #end
 
 ////////////////  MIDDLE AGE
